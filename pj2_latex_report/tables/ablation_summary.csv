@@ -1,0 +1,8 @@
+experiment,category,parameters,activation,width_mult,use_bn,optimizer,learning_rate,weight_decay,label_smoothing,best_val_accuracy,best_val_accuracy_epoch,final_val_accuracy,model_path
+filters_width_0.5,different_filters,2708362,relu,0.5,True,adam,0.001,0.0005,0.0,0.7716,5,0.7716,pj2_outputs/models/ablation_filters_width_0.5.pt
+filters_width_1.0,different_filters,9756426,relu,1.0,True,adam,0.001,0.0005,0.0,0.7719,5,0.7719,pj2_outputs/models/ablation_filters_width_1.0.pt
+activation_leaky_relu,different_activations,9756426,leaky_relu,1.0,True,adam,0.001,0.0005,0.0,0.7579,5,0.7579,pj2_outputs/models/ablation_activation_leaky_relu.pt
+activation_elu,different_activations,9756426,elu,1.0,True,adam,0.001,0.0005,0.0,0.7267,5,0.7267,pj2_outputs/models/ablation_activation_elu.pt
+regularization_no_weight_decay,different_loss_regularization,9756426,relu,1.0,True,adam,0.001,0.0,0.0,0.7875,5,0.7875,pj2_outputs/models/ablation_regularization_no_weight_decay.pt
+loss_label_smoothing_0.1,different_loss_regularization,9756426,relu,1.0,True,adam,0.001,0.0005,0.1,0.7745,5,0.7745,pj2_outputs/models/ablation_loss_label_smoothing_0.1.pt
+optimizer_sgd_momentum,different_optimizers,9756426,relu,1.0,True,sgd,0.01,0.0005,0.0,0.7598,5,0.7598,pj2_outputs/models/ablation_optimizer_sgd_momentum.pt
