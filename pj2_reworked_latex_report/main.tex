@@ -257,9 +257,12 @@ The BN version adds a BatchNorm2d layer after each convolutional layer.
 
 \subsection{Training Process Comparison}
 
-The VGG-A experiments use Adam, cross entropy, 20 epochs, and the same CIFAR-10
-train/test split. Four learning rates are tested to satisfy the loss-landscape
-requirement.
+The VGG-A experiments follow the provided \texttt{VGG\_Loss\_Landscape.py}
+setting more closely than the first-part CNN experiments. I use the standard
+CIFAR-10 train/test split, batch size 128, 20 epochs, cross entropy, Adam, and
+the simple transform \texttt{ToTensor + Normalize(0.5, 0.5)} without the stronger
+data augmentation used in Section 1. Four learning rates are tested to satisfy
+the loss-landscape requirement.
 
 \begin{table}[H]
 \centering
@@ -269,13 +272,13 @@ requirement.
 Model & Learning Rate & Parameters & Best Test Acc. \\
 \midrule
 VGG-A & 0.001 & 9,750,922 & 81.66\% \\
-VGG-A & 0.002 & 9,750,922 & 78.20\% \\
-VGG-A & 0.0001 & 9,750,922 & 77.95\% \\
-VGG-A & 0.0005 & 9,750,922 & 83.31\% \\
-VGG-A-BN & 0.001 & 9,756,426 & 86.88\% \\
-VGG-A-BN & 0.002 & 9,756,426 & \textbf{87.27\%} \\
-VGG-A-BN & 0.0001 & 9,756,426 & 81.07\% \\
-VGG-A-BN & 0.0005 & 9,756,426 & 85.70\% \\
+VGG-A & 0.002 & 9,750,922 & 10.00\% \\
+VGG-A & 0.0001 & 9,750,922 & 76.83\% \\
+VGG-A & 0.0005 & 9,750,922 & 79.36\% \\
+VGG-A-BN & 0.001 & 9,756,426 & \textbf{82.17\%} \\
+VGG-A-BN & 0.002 & 9,756,426 & 81.19\% \\
+VGG-A-BN & 0.0001 & 9,756,426 & 75.03\% \\
+VGG-A-BN & 0.0005 & 9,756,426 & 81.76\% \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -286,9 +289,10 @@ VGG-A-BN & 0.0005 & 9,756,426 & 85.70\% \\
 \caption{Training and testing accuracy for VGG-A with and without BN.}
 \end{figure}
 
-The best VGG-A-BN accuracy is 87.27\%, while the best VGG-A accuracy is 83.31\%.
-BN improves the best test accuracy by 3.96 percentage points and is especially
-helpful at larger learning rates.
+The best VGG-A-BN accuracy is 82.17\%, while the best VGG-A accuracy is 79.36\%.
+BN improves the best test accuracy by 2.81 percentage points. It is also more
+stable under a large learning rate: when the learning rate is 0.002, vanilla
+VGG-A collapses to around chance accuracy, while VGG-A-BN still reaches 81.19\%.
 
 \subsection{Loss Landscape Comparison}
 
@@ -296,17 +300,19 @@ Following the project instruction, I train multiple VGG-A and VGG-A-BN models
 with learning rates $10^{-3}$, $2\times10^{-3}$, $10^{-4}$, and
 $5\times10^{-4}$. For each training step, I collect the losses from all
 learning-rate runs, compute the minimum and maximum curves, and fill the region
-between them using \texttt{matplotlib.pyplot.fill\_between}.
+between them using \texttt{matplotlib.pyplot.fill\_between}. This reproduces the
+same style of loss-landscape visualization as the provided sample code.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.90\linewidth]{figures/vgg_loss_landscape_comparison.png}
 \caption{Loss landscape comparison of VGG-A and VGG-A-BN.}
+\label{fig:vgg-loss-landscape}
 \end{figure}
 
-The BN model has lower and more stable loss behavior across learning rates. This
-visualization supports the interpretation that BN smooths the optimization
-process and reduces sensitivity to the choice of step size.
+The BN model shows a lower loss band and smoother convergence across learning
+rates. This visualization supports the interpretation that BN smooths the
+optimization process and reduces sensitivity to the choice of step size.
 
 \section{Conclusion}
 
@@ -315,9 +321,10 @@ stage and 523,760 parameters. The controlled experiments show that ReLU is the
 best activation among the tested choices, moderate weight decay improves
 generalization, and Adam is much more effective than SGD under the selected
 settings. For the VGG-A study, Batch Normalization improves the best test
-accuracy from 83.31\% to 87.27\% and produces a smoother loss landscape. These
-results satisfy the project requirements on CIFAR-10 training, optimization
-comparison, BN comparison, and model interpretation.
+accuracy from 79.36\% to 82.17\% under the sample-code-style VGG setting and
+produces a smoother loss landscape. These results satisfy the project
+requirements on CIFAR-10 training, optimization comparison, BN comparison, and
+model interpretation.
 
 \appendix
 \section{Reproducibility}

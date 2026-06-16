@@ -66,6 +66,13 @@ def get_transforms(train=True):
     ])
 
 
+def get_vgg_transforms():
+    return transforms.Compose([
+        transforms.ToTensor(),
+        transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5)),
+    ])
+
+
 def get_cifar_loader(root, batch_size, train=True, shuffle=True,
                      num_workers=4, n_items=-1, download=False):
     dataset = datasets.CIFAR10(
@@ -73,6 +80,25 @@ def get_cifar_loader(root, batch_size, train=True, shuffle=True,
         train=train,
         download=download,
         transform=get_transforms(train=train),
+    )
+    if n_items > 0:
+        dataset = PartialDataset(dataset, n_items)
+    return DataLoader(
+        dataset,
+        batch_size=batch_size,
+        shuffle=shuffle,
+        num_workers=num_workers,
+        pin_memory=torch.cuda.is_available(),
+    )
+
+
+def get_vgg_cifar_loader(root, batch_size=128, train=True, shuffle=True,
+                         num_workers=4, n_items=-1, download=False):
+    dataset = datasets.CIFAR10(
+        root=root,
+        train=train,
+        download=download,
+        transform=get_vgg_transforms(),
     )
     if n_items > 0:
         dataset = PartialDataset(dataset, n_items)
@@ -419,11 +445,13 @@ def plot_accuracy(histories, title, path):
     plt.close(fig)
 
 
-def plot_loss_landscape(losses_by_model, path):
+def plot_loss_landscape(losses_by_model, path, max_steps=None, y_limit=None):
     path.parent.mkdir(parents=True, exist_ok=True)
     fig, ax = plt.subplots(figsize=(9, 5))
     for label, loss_lists in losses_by_model.items():
         min_len = min(len(values) for values in loss_lists)
+        if max_steps is not None:
+            min_len = min(min_len, max_steps)
         aligned = np.array([values[:min_len] for values in loss_lists])
         min_curve = aligned.min(axis=0)
         max_curve = aligned.max(axis=0)
@@ -434,6 +462,8 @@ def plot_loss_landscape(losses_by_model, path):
     ax.set_title("Loss Landscape Comparison")
     ax.set_xlabel("Training Steps")
     ax.set_ylabel("Loss Value")
+    if y_limit is not None:
+        ax.set_ylim(0, y_limit)
     ax.grid(alpha=0.3)
     ax.legend()
     fig.tight_layout()
@@ -549,7 +579,25 @@ def run_course_experiments(args, device, train_loader, test_loader):
         writer.writerows(rows)
 
 
-def run_vgg_bn_experiments(args, device, train_loader, test_loader):
+def run_vgg_bn_experiments(args, device):
+    train_loader = get_vgg_cifar_loader(
+        args.data_root,
+        batch_size=args.vgg_batch_size,
+        train=True,
+        shuffle=True,
+        num_workers=args.num_workers,
+        n_items=args.n_items,
+        download=args.download_data,
+    )
+    test_loader = get_vgg_cifar_loader(
+        args.data_root,
+        batch_size=args.vgg_batch_size,
+        train=False,
+        shuffle=False,
+        num_workers=args.num_workers,
+        n_items=args.val_items,
+        download=args.download_data,
+    )
     lrs = [1e-3, 2e-3, 1e-4, 5e-4]
     rows = []
     losses_by_model = {"VGG-A": [], "VGG-A-BN": []}
@@ -600,6 +648,7 @@ def parse_args():
     parser.add_argument("--epochs", type=int, default=100)
     parser.add_argument("--baseline-epochs", type=int, default=50)
     parser.add_argument("--vgg-epochs", type=int, default=20)
+    parser.add_argument("--vgg-batch-size", type=int, default=128)
     parser.add_argument("--train-batch-size", type=int, default=192)
     parser.add_argument("--test-batch-size", type=int, default=384)
     parser.add_argument("--num-workers", type=int, default=4)
@@ -654,7 +703,7 @@ def main():
     if args.suite in ("all", "course"):
         run_course_experiments(args, device, train_loader, test_loader)
     if args.suite in ("all", "vgg"):
-        run_vgg_bn_experiments(args, device, train_loader, test_loader)
+        run_vgg_bn_experiments(args, device)
     print(f"Saved outputs to {OUTPUT_DIR.resolve()}")
 
 
