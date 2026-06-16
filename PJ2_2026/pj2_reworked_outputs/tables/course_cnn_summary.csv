@@ -1,0 +1,13 @@
+experiment,group,activation,num_blocks,optimizer,learning_rate,weight_decay,dropout,gradient_clip,parameters,best_test_accuracy,best_epoch,final_test_accuracy
+main_baseline,main,relu,6,adam,0.0008,0.0003,0.4,0.8,629766,0.8842,47,0.8835
+activation_relu,activation,relu,6,adam,0.0008,0.0003,0.4,0.8,629766,0.8875,48,0.8848
+activation_tanh,activation,tanh,6,adam,0.0008,0.0003,0.4,0.8,629766,0.8372,50,0.8372
+activation_sigmoid,activation,sigmoid,6,adam,0.0008,0.0003,0.4,0.8,629766,0.2076,1,0.1098
+structure_blocks_5,structure,relu,5,adam,0.0008,0.0003,0.4,0.8,523760,0.8891,47,0.8882
+structure_blocks_6,structure,relu,6,adam,0.0008,0.0003,0.4,0.8,629766,0.8831,48,0.8814
+structure_blocks_7,structure,relu,7,adam,0.0008,0.0003,0.4,0.8,735772,0.8809,49,0.8794
+loss_wd_5e-5,loss,relu,6,adam,0.0008,5e-05,0.4,0.8,629766,0.8768,45,0.8774
+loss_wd_3e-4,loss,relu,6,adam,0.0008,0.0003,0.4,0.8,629766,0.8839,50,0.8839
+loss_wd_8e-4,loss,relu,6,adam,0.0008,0.0008,0.4,0.8,629766,0.8872,48,0.887
+optimizer_adam,optimizer,relu,6,adam,0.0008,0.0003,0.4,0.8,629766,0.8839,50,0.8839
+optimizer_sgd,optimizer,relu,6,sgd,0.0008,0.0003,0.4,0.8,629766,0.3085,47,0.3065

@@ -5,6 +5,8 @@ __pycache__/
 tmp_cifar_check/
 trained_check/
 trained_report_src/
+reworked_report_src/
+classmate_report_text.txt
 PJ2_2026_results/
 *.zip
 *.tar.gz
