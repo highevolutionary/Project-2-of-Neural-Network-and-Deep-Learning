@@ -1,794 +1,0 @@
-nohup: ignoring input
-[HAMI-core Msg(6300:140080326019968:libvgpu.c:837)]: Initializing.....
-[HAMI-core Msg(6300:140080326019968:libvgpu.c:853)]: Initialized
-Using device: cuda:0
-GPU: NVIDIA A100-SXM4-80GB
-
-Training main_baseline
-  0%|          | 0/50 [00:00<?, ?epoch/s]epoch=001 lr=0.00016 loss=2.2725 train_acc=0.1339 test_acc=0.1933
-  2%|▏         | 1/50 [00:29<24:06, 29.51s/epoch]epoch=002 lr=0.00032 loss=1.9618 train_acc=0.2525 test_acc=0.3613
-  4%|▍         | 2/50 [00:57<22:53, 28.61s/epoch]epoch=003 lr=0.00048 loss=1.6894 train_acc=0.3754 test_acc=0.4483
-  6%|▌         | 3/50 [01:25<22:11, 28.33s/epoch]epoch=004 lr=0.00064 loss=1.4863 train_acc=0.4657 test_acc=0.5209
-  8%|▊         | 4/50 [01:53<21:33, 28.12s/epoch]epoch=005 lr=0.0008 loss=1.3232 train_acc=0.5284 test_acc=0.5777
- 10%|█         | 5/50 [02:21<21:03, 28.08s/epoch]epoch=006 lr=0.0008 loss=1.1288 train_acc=0.6003 test_acc=0.6382
- 12%|█▏        | 6/50 [02:49<20:40, 28.19s/epoch]epoch=007 lr=0.000799026 loss=1.0595 train_acc=0.6262 test_acc=0.6363
- 14%|█▍        | 7/50 [03:17<20:12, 28.19s/epoch]epoch=008 lr=0.000796107 loss=1.0116 train_acc=0.6434 test_acc=0.6595
- 16%|█▌        | 8/50 [03:45<19:41, 28.14s/epoch]epoch=009 lr=0.000791259 loss=0.9738 train_acc=0.6604 test_acc=0.6482
- 18%|█▊        | 9/50 [04:13<19:10, 28.05s/epoch]epoch=010 lr=0.000784505 loss=0.9249 train_acc=0.6814 test_acc=0.6626
- 20%|██        | 10/50 [04:41<18:40, 28.02s/epoch]epoch=011 lr=0.000775877 loss=0.8831 train_acc=0.6986 test_acc=0.6909
- 22%|██▏       | 11/50 [05:09<18:11, 27.98s/epoch]epoch=012 lr=0.000765418 loss=0.8484 train_acc=0.7098 test_acc=0.7097
- 24%|██▍       | 12/50 [05:37<17:40, 27.91s/epoch]epoch=013 lr=0.000753179 loss=0.8052 train_acc=0.7280 test_acc=0.7092
- 26%|██▌       | 13/50 [06:05<17:10, 27.86s/epoch]epoch=014 lr=0.000739219 loss=0.7714 train_acc=0.7390 test_acc=0.6756
- 28%|██▊       | 14/50 [06:32<16:39, 27.76s/epoch]epoch=015 lr=0.000723607 loss=0.7398 train_acc=0.7507 test_acc=0.7195
- 30%|███       | 15/50 [07:00<16:08, 27.66s/epoch]epoch=016 lr=0.000706418 loss=0.7133 train_acc=0.7592 test_acc=0.7722
- 32%|███▏      | 16/50 [07:27<15:41, 27.68s/epoch]epoch=017 lr=0.000687736 loss=0.6762 train_acc=0.7731 test_acc=0.7575
- 34%|███▍      | 17/50 [07:55<15:12, 27.66s/epoch]epoch=018 lr=0.000667652 loss=0.6562 train_acc=0.7794 test_acc=0.7030
- 36%|███▌      | 18/50 [08:23<14:45, 27.66s/epoch]epoch=019 lr=0.000646265 loss=0.6314 train_acc=0.7898 test_acc=0.7875
- 38%|███▊      | 19/50 [08:50<14:19, 27.73s/epoch]epoch=020 lr=0.000623677 loss=0.6100 train_acc=0.7964 test_acc=0.7719
- 40%|████      | 20/50 [09:16<13:36, 27.22s/epoch]epoch=021 lr=0.0006 loss=0.5835 train_acc=0.8063 test_acc=0.7900
- 42%|████▏     | 21/50 [09:43<13:06, 27.13s/epoch]epoch=022 lr=0.000575348 loss=0.5635 train_acc=0.8116 test_acc=0.7630
- 44%|████▍     | 22/50 [10:11<12:40, 27.14s/epoch]epoch=023 lr=0.000549843 loss=0.5463 train_acc=0.8185 test_acc=0.8081
- 46%|████▌     | 23/50 [10:37<12:05, 26.86s/epoch]epoch=024 lr=0.000523607 loss=0.5268 train_acc=0.8224 test_acc=0.7999
- 48%|████▊     | 24/50 [11:04<11:39, 26.91s/epoch]epoch=025 lr=0.000496769 loss=0.5013 train_acc=0.8348 test_acc=0.7961
- 50%|█████     | 25/50 [11:31<11:17, 27.11s/epoch]epoch=026 lr=0.000469459 loss=0.4877 train_acc=0.8361 test_acc=0.8163
- 52%|█████▏    | 26/50 [11:59<10:55, 27.32s/epoch]epoch=027 lr=0.000441811 loss=0.4708 train_acc=0.8448 test_acc=0.8266
- 54%|█████▍    | 27/50 [12:27<10:31, 27.47s/epoch]epoch=028 lr=0.00041396 loss=0.4606 train_acc=0.8475 test_acc=0.8332
- 56%|█████▌    | 28/50 [12:55<10:06, 27.57s/epoch]epoch=029 lr=0.00038604 loss=0.4471 train_acc=0.8513 test_acc=0.8360
- 58%|█████▊    | 29/50 [13:23<09:41, 27.71s/epoch]epoch=030 lr=0.000358189 loss=0.4199 train_acc=0.8608 test_acc=0.8262
- 60%|██████    | 30/50 [13:50<09:13, 27.69s/epoch]epoch=031 lr=0.000330541 loss=0.4060 train_acc=0.8648 test_acc=0.8396
- 62%|██████▏   | 31/50 [14:18<08:47, 27.77s/epoch]epoch=032 lr=0.000303231 loss=0.3879 train_acc=0.8701 test_acc=0.8491
- 64%|██████▍   | 32/50 [14:46<08:21, 27.84s/epoch]epoch=033 lr=0.000276393 loss=0.3728 train_acc=0.8764 test_acc=0.8389
- 66%|██████▌   | 33/50 [15:15<07:54, 27.91s/epoch]epoch=034 lr=0.000250157 loss=0.3615 train_acc=0.8800 test_acc=0.8566
- 68%|██████▊   | 34/50 [15:43<07:27, 27.99s/epoch]epoch=035 lr=0.000224652 loss=0.3444 train_acc=0.8870 test_acc=0.8546
- 70%|███████   | 35/50 [16:11<07:00, 28.01s/epoch]epoch=036 lr=0.0002 loss=0.3244 train_acc=0.8937 test_acc=0.8520
- 72%|███████▏  | 36/50 [16:38<06:30, 27.89s/epoch]epoch=037 lr=0.000176323 loss=0.3120 train_acc=0.8967 test_acc=0.8615
- 74%|███████▍  | 37/50 [17:06<06:01, 27.83s/epoch]epoch=038 lr=0.000153735 loss=0.2986 train_acc=0.9010 test_acc=0.8704
- 76%|███████▌  | 38/50 [17:34<05:33, 27.83s/epoch]epoch=039 lr=0.000132348 loss=0.2849 train_acc=0.9058 test_acc=0.8739
- 78%|███████▊  | 39/50 [18:02<05:07, 27.94s/epoch]epoch=040 lr=0.000112264 loss=0.2728 train_acc=0.9101 test_acc=0.8735
- 80%|████████  | 40/50 [18:30<04:38, 27.88s/epoch]epoch=041 lr=9.35822e-05 loss=0.2638 train_acc=0.9140 test_acc=0.8743
- 82%|████████▏ | 41/50 [18:58<04:10, 27.84s/epoch]epoch=042 lr=7.63932e-05 loss=0.2475 train_acc=0.9194 test_acc=0.8758
- 84%|████████▍ | 42/50 [19:26<03:44, 28.01s/epoch]epoch=043 lr=6.07808e-05 loss=0.2405 train_acc=0.9209 test_acc=0.8796
- 86%|████████▌ | 43/50 [19:54<03:15, 27.98s/epoch]epoch=044 lr=4.6821e-05 loss=0.2315 train_acc=0.9237 test_acc=0.8819
- 88%|████████▊ | 44/50 [20:22<02:48, 28.05s/epoch]epoch=045 lr=3.45818e-05 loss=0.2229 train_acc=0.9273 test_acc=0.8832
- 90%|█████████ | 45/50 [20:50<02:20, 28.05s/epoch]epoch=046 lr=2.4123e-05 loss=0.2167 train_acc=0.9302 test_acc=0.8839
- 92%|█████████▏| 46/50 [21:18<01:51, 27.93s/epoch]epoch=047 lr=1.54953e-05 loss=0.2111 train_acc=0.9314 test_acc=0.8842
- 94%|█████████▍| 47/50 [21:46<01:23, 27.88s/epoch]epoch=048 lr=8.74096e-06 loss=0.2101 train_acc=0.9310 test_acc=0.8836
- 96%|█████████▌| 48/50 [22:14<00:55, 27.94s/epoch]epoch=049 lr=3.89277e-06 loss=0.2037 train_acc=0.9347 test_acc=0.8839
- 98%|█████████▊| 49/50 [22:41<00:27, 27.84s/epoch]epoch=050 lr=9.7438e-07 loss=0.2054 train_acc=0.9328 test_acc=0.8835
-100%|██████████| 50/50 [23:09<00:00, 27.80s/epoch]100%|██████████| 50/50 [23:09<00:00, 27.79s/epoch]
-
-Training activation_relu
-  0%|          | 0/50 [00:00<?, ?epoch/s]epoch=001 lr=0.00016 loss=2.2530 train_acc=0.1442 test_acc=0.2209
-  2%|▏         | 1/50 [00:27<22:39, 27.74s/epoch]epoch=002 lr=0.00032 loss=1.8906 train_acc=0.2822 test_acc=0.3509
-  4%|▍         | 2/50 [00:55<22:10, 27.72s/epoch]epoch=003 lr=0.00048 loss=1.6602 train_acc=0.3873 test_acc=0.4637
-  6%|▌         | 3/50 [01:22<21:36, 27.59s/epoch]epoch=004 lr=0.00064 loss=1.4664 train_acc=0.4708 test_acc=0.5270
-  8%|▊         | 4/50 [01:50<21:10, 27.61s/epoch]epoch=005 lr=0.0008 loss=1.3097 train_acc=0.5343 test_acc=0.5764
- 10%|█         | 5/50 [02:17<20:40, 27.56s/epoch]epoch=006 lr=0.0008 loss=1.1157 train_acc=0.6078 test_acc=0.6494
- 12%|█▏        | 6/50 [02:45<20:16, 27.65s/epoch]epoch=007 lr=0.000799026 loss=1.0410 train_acc=0.6349 test_acc=0.6199
- 14%|█▍        | 7/50 [03:13<19:48, 27.63s/epoch]epoch=008 lr=0.000796107 loss=0.9891 train_acc=0.6549 test_acc=0.6740
- 16%|█▌        | 8/50 [03:41<19:30, 27.86s/epoch]epoch=009 lr=0.000791259 loss=0.9545 train_acc=0.6709 test_acc=0.6690
- 18%|█▊        | 9/50 [04:09<18:59, 27.80s/epoch]epoch=010 lr=0.000784505 loss=0.9075 train_acc=0.6905 test_acc=0.6439
- 20%|██        | 10/50 [04:37<18:33, 27.83s/epoch]epoch=011 lr=0.000775877 loss=0.8798 train_acc=0.6997 test_acc=0.7069
- 22%|██▏       | 11/50 [05:05<18:09, 27.93s/epoch]epoch=012 lr=0.000765418 loss=0.8389 train_acc=0.7134 test_acc=0.6931
- 24%|██▍       | 12/50 [05:33<17:37, 27.84s/epoch]epoch=013 lr=0.000753179 loss=0.8023 train_acc=0.7267 test_acc=0.6930
- 26%|██▌       | 13/50 [06:00<17:07, 27.78s/epoch]epoch=014 lr=0.000739219 loss=0.7715 train_acc=0.7375 test_acc=0.6966
- 28%|██▊       | 14/50 [06:28<16:41, 27.81s/epoch]epoch=015 lr=0.000723607 loss=0.7420 train_acc=0.7481 test_acc=0.7243
- 30%|███       | 15/50 [06:56<16:19, 27.97s/epoch]epoch=016 lr=0.000706418 loss=0.7071 train_acc=0.7619 test_acc=0.7580
- 32%|███▏      | 16/50 [07:24<15:50, 27.97s/epoch]epoch=017 lr=0.000687736 loss=0.6833 train_acc=0.7716 test_acc=0.7523
- 34%|███▍      | 17/50 [07:52<15:21, 27.92s/epoch]epoch=018 lr=0.000667652 loss=0.6604 train_acc=0.7798 test_acc=0.7452
- 36%|███▌      | 18/50 [08:20<14:53, 27.92s/epoch]epoch=019 lr=0.000646265 loss=0.6319 train_acc=0.7887 test_acc=0.7822
- 38%|███▊      | 19/50 [08:48<14:24, 27.88s/epoch]epoch=020 lr=0.000623677 loss=0.6088 train_acc=0.7958 test_acc=0.7522
- 40%|████      | 20/50 [09:16<13:54, 27.82s/epoch]epoch=021 lr=0.0006 loss=0.5902 train_acc=0.8035 test_acc=0.7970
- 42%|████▏     | 21/50 [09:43<13:25, 27.76s/epoch]epoch=022 lr=0.000575348 loss=0.5710 train_acc=0.8106 test_acc=0.7613
- 44%|████▍     | 22/50 [10:11<12:58, 27.81s/epoch]epoch=023 lr=0.000549843 loss=0.5515 train_acc=0.8160 test_acc=0.7840
- 46%|████▌     | 23/50 [10:39<12:31, 27.84s/epoch]epoch=024 lr=0.000523607 loss=0.5358 train_acc=0.8216 test_acc=0.8207
- 48%|████▊     | 24/50 [11:07<12:08, 28.00s/epoch]epoch=025 lr=0.000496769 loss=0.5124 train_acc=0.8298 test_acc=0.7708
- 50%|█████     | 25/50 [11:36<11:40, 28.03s/epoch]epoch=026 lr=0.000469459 loss=0.4956 train_acc=0.8348 test_acc=0.8240
- 52%|█████▏    | 26/50 [12:03<11:11, 28.00s/epoch]epoch=027 lr=0.000441811 loss=0.4770 train_acc=0.8429 test_acc=0.8180
- 54%|█████▍    | 27/50 [12:32<10:44, 28.02s/epoch]epoch=028 lr=0.00041396 loss=0.4606 train_acc=0.8472 test_acc=0.8139
- 56%|█████▌    | 28/50 [12:59<10:15, 27.97s/epoch]epoch=029 lr=0.00038604 loss=0.4483 train_acc=0.8520 test_acc=0.8110
- 58%|█████▊    | 29/50 [13:27<09:46, 27.95s/epoch]epoch=030 lr=0.000358189 loss=0.4230 train_acc=0.8608 test_acc=0.8445
- 60%|██████    | 30/50 [13:56<09:21, 28.07s/epoch]epoch=031 lr=0.000330541 loss=0.4060 train_acc=0.8659 test_acc=0.8359
- 62%|██████▏   | 31/50 [14:24<08:56, 28.22s/epoch]epoch=032 lr=0.000303231 loss=0.3958 train_acc=0.8685 test_acc=0.8525
- 64%|██████▍   | 32/50 [14:52<08:26, 28.16s/epoch]epoch=033 lr=0.000276393 loss=0.3772 train_acc=0.8745 test_acc=0.8458
- 66%|██████▌   | 33/50 [15:20<07:57, 28.06s/epoch]epoch=034 lr=0.000250157 loss=0.3630 train_acc=0.8800 test_acc=0.8563
- 68%|██████▊   | 34/50 [15:48<07:27, 27.95s/epoch]epoch=035 lr=0.000224652 loss=0.3446 train_acc=0.8871 test_acc=0.8539
- 70%|███████   | 35/50 [16:15<06:57, 27.83s/epoch]epoch=036 lr=0.0002 loss=0.3314 train_acc=0.8900 test_acc=0.8464
- 72%|███████▏  | 36/50 [16:43<06:29, 27.80s/epoch]epoch=037 lr=0.000176323 loss=0.3179 train_acc=0.8951 test_acc=0.8593
- 74%|███████▍  | 37/50 [17:10<05:59, 27.69s/epoch]epoch=038 lr=0.000153735 loss=0.3035 train_acc=0.8998 test_acc=0.8701
- 76%|███████▌  | 38/50 [17:38<05:32, 27.70s/epoch]epoch=039 lr=0.000132348 loss=0.2894 train_acc=0.9046 test_acc=0.8647
- 78%|███████▊  | 39/50 [18:07<05:07, 27.94s/epoch]epoch=040 lr=0.000112264 loss=0.2786 train_acc=0.9082 test_acc=0.8735
- 80%|████████  | 40/50 [18:34<04:38, 27.85s/epoch]epoch=041 lr=9.35822e-05 loss=0.2659 train_acc=0.9131 test_acc=0.8806
- 82%|████████▏ | 41/50 [19:02<04:10, 27.84s/epoch]epoch=042 lr=7.63932e-05 loss=0.2514 train_acc=0.9171 test_acc=0.8784
- 84%|████████▍ | 42/50 [19:30<03:42, 27.76s/epoch]epoch=043 lr=6.07808e-05 loss=0.2441 train_acc=0.9203 test_acc=0.8819
- 86%|████████▌ | 43/50 [19:57<03:14, 27.74s/epoch]epoch=044 lr=4.6821e-05 loss=0.2364 train_acc=0.9225 test_acc=0.8813
- 88%|████████▊ | 44/50 [20:25<02:46, 27.68s/epoch]epoch=045 lr=3.45818e-05 loss=0.2278 train_acc=0.9258 test_acc=0.8837
- 90%|█████████ | 45/50 [20:53<02:18, 27.66s/epoch]epoch=046 lr=2.4123e-05 loss=0.2179 train_acc=0.9291 test_acc=0.8821
- 92%|█████████▏| 46/50 [21:20<01:50, 27.64s/epoch]epoch=047 lr=1.54953e-05 loss=0.2180 train_acc=0.9286 test_acc=0.8854
- 94%|█████████▍| 47/50 [21:48<01:23, 27.68s/epoch]epoch=048 lr=8.74096e-06 loss=0.2127 train_acc=0.9303 test_acc=0.8875
- 96%|█████████▌| 48/50 [22:16<00:55, 27.69s/epoch]epoch=049 lr=3.89277e-06 loss=0.2074 train_acc=0.9333 test_acc=0.8841
- 98%|█████████▊| 49/50 [22:43<00:27, 27.69s/epoch]epoch=050 lr=9.7438e-07 loss=0.2071 train_acc=0.9335 test_acc=0.8848
-100%|██████████| 50/50 [23:11<00:00, 27.66s/epoch]100%|██████████| 50/50 [23:11<00:00, 27.83s/epoch]
-
-Training activation_tanh
-  0%|          | 0/50 [00:00<?, ?epoch/s]epoch=001 lr=0.00016 loss=1.9989 train_acc=0.2545 test_acc=0.3485
-  2%|▏         | 1/50 [00:27<22:36, 27.68s/epoch]epoch=002 lr=0.00032 loss=1.7712 train_acc=0.3504 test_acc=0.4228
-  4%|▍         | 2/50 [00:55<22:11, 27.74s/epoch]epoch=003 lr=0.00048 loss=1.6486 train_acc=0.3947 test_acc=0.4359
-  6%|▌         | 3/50 [01:23<21:43, 27.73s/epoch]epoch=004 lr=0.00064 loss=1.5540 train_acc=0.4369 test_acc=0.4682
-  8%|▊         | 4/50 [01:50<21:14, 27.71s/epoch]epoch=005 lr=0.0008 loss=1.4597 train_acc=0.4709 test_acc=0.5075
- 10%|█         | 5/50 [02:18<20:50, 27.79s/epoch]epoch=006 lr=0.0008 loss=1.2816 train_acc=0.5387 test_acc=0.5585
- 12%|█▏        | 6/50 [02:46<20:24, 27.83s/epoch]epoch=007 lr=0.000799026 loss=1.2226 train_acc=0.5626 test_acc=0.5755
- 14%|█▍        | 7/50 [03:14<19:58, 27.88s/epoch]epoch=008 lr=0.000796107 loss=1.1974 train_acc=0.5723 test_acc=0.5857
- 16%|█▌        | 8/50 [03:42<19:30, 27.88s/epoch]epoch=009 lr=0.000791259 loss=1.1767 train_acc=0.5787 test_acc=0.5722
- 18%|█▊        | 9/50 [04:10<19:04, 27.92s/epoch]epoch=010 lr=0.000784505 loss=1.1534 train_acc=0.5903 test_acc=0.5691
- 20%|██        | 10/50 [04:38<18:34, 27.87s/epoch]epoch=011 lr=0.000775877 loss=1.1343 train_acc=0.5953 test_acc=0.5855
- 22%|██▏       | 11/50 [05:06<18:08, 27.92s/epoch]epoch=012 lr=0.000765418 loss=1.1173 train_acc=0.6018 test_acc=0.5544
- 24%|██▍       | 12/50 [05:34<17:41, 27.94s/epoch]epoch=013 lr=0.000753179 loss=1.1071 train_acc=0.6069 test_acc=0.5795
- 26%|██▌       | 13/50 [06:02<17:17, 28.05s/epoch]epoch=014 lr=0.000739219 loss=1.0889 train_acc=0.6122 test_acc=0.5240
- 28%|██▊       | 14/50 [06:30<16:46, 27.95s/epoch]epoch=015 lr=0.000723607 loss=1.0607 train_acc=0.6243 test_acc=0.5843
- 30%|███       | 15/50 [06:58<16:17, 27.93s/epoch]epoch=016 lr=0.000706418 loss=1.0432 train_acc=0.6301 test_acc=0.5549
- 32%|███▏      | 16/50 [07:24<15:27, 27.29s/epoch]epoch=017 lr=0.000687736 loss=1.0112 train_acc=0.6404 test_acc=0.5715
- 34%|███▍      | 17/50 [07:49<14:46, 26.85s/epoch]epoch=018 lr=0.000667652 loss=0.9922 train_acc=0.6498 test_acc=0.5842
- 36%|███▌      | 18/50 [08:17<14:28, 27.15s/epoch]epoch=019 lr=0.000646265 loss=0.9696 train_acc=0.6558 test_acc=0.6566
- 38%|███▊      | 19/50 [08:45<14:06, 27.32s/epoch]epoch=020 lr=0.000623677 loss=0.9481 train_acc=0.6665 test_acc=0.6519
- 40%|████      | 20/50 [09:13<13:46, 27.55s/epoch]epoch=021 lr=0.0006 loss=0.9121 train_acc=0.6812 test_acc=0.5932
- 42%|████▏     | 21/50 [09:41<13:20, 27.59s/epoch]epoch=022 lr=0.000575348 loss=0.9006 train_acc=0.6834 test_acc=0.6099
- 44%|████▍     | 22/50 [10:09<12:56, 27.75s/epoch]epoch=023 lr=0.000549843 loss=0.8724 train_acc=0.6945 test_acc=0.6574
- 46%|████▌     | 23/50 [10:37<12:31, 27.83s/epoch]epoch=024 lr=0.000523607 loss=0.8486 train_acc=0.7051 test_acc=0.7001
- 48%|████▊     | 24/50 [11:03<11:50, 27.34s/epoch]epoch=025 lr=0.000496769 loss=0.8236 train_acc=0.7152 test_acc=0.7145
- 50%|█████     | 25/50 [11:30<11:19, 27.20s/epoch]epoch=026 lr=0.000469459 loss=0.8036 train_acc=0.7205 test_acc=0.7039
- 52%|█████▏    | 26/50 [11:56<10:47, 26.98s/epoch]epoch=027 lr=0.000441811 loss=0.7808 train_acc=0.7286 test_acc=0.6767
- 54%|█████▍    | 27/50 [12:22<10:12, 26.63s/epoch]epoch=028 lr=0.00041396 loss=0.7586 train_acc=0.7365 test_acc=0.7192
- 56%|█████▌    | 28/50 [12:49<09:47, 26.69s/epoch]epoch=029 lr=0.00038604 loss=0.7302 train_acc=0.7467 test_acc=0.7496
- 58%|█████▊    | 29/50 [13:17<09:27, 27.03s/epoch]epoch=030 lr=0.000358189 loss=0.7139 train_acc=0.7539 test_acc=0.7451
- 60%|██████    | 30/50 [13:45<09:05, 27.26s/epoch]epoch=031 lr=0.000330541 loss=0.6882 train_acc=0.7615 test_acc=0.7419
- 62%|██████▏   | 31/50 [14:12<08:40, 27.41s/epoch]epoch=032 lr=0.000303231 loss=0.6694 train_acc=0.7671 test_acc=0.7255
- 64%|██████▍   | 32/50 [14:41<08:17, 27.64s/epoch]epoch=033 lr=0.000276393 loss=0.6619 train_acc=0.7729 test_acc=0.7576
- 66%|██████▌   | 33/50 [15:09<07:51, 27.74s/epoch]epoch=034 lr=0.000250157 loss=0.6344 train_acc=0.7841 test_acc=0.7750
- 68%|██████▊   | 34/50 [15:36<07:23, 27.71s/epoch]epoch=035 lr=0.000224652 loss=0.6204 train_acc=0.7889 test_acc=0.7683
- 70%|███████   | 35/50 [16:04<06:56, 27.76s/epoch]epoch=036 lr=0.0002 loss=0.6070 train_acc=0.7911 test_acc=0.7465
- 72%|███████▏  | 36/50 [16:32<06:29, 27.85s/epoch]epoch=037 lr=0.000176323 loss=0.5896 train_acc=0.7998 test_acc=0.7466
- 74%|███████▍  | 37/50 [17:00<06:02, 27.85s/epoch]epoch=038 lr=0.000153735 loss=0.5712 train_acc=0.8040 test_acc=0.8021
- 76%|███████▌  | 38/50 [17:28<05:33, 27.76s/epoch]epoch=039 lr=0.000132348 loss=0.5540 train_acc=0.8128 test_acc=0.7962
- 78%|███████▊  | 39/50 [17:55<05:05, 27.75s/epoch]epoch=040 lr=0.000112264 loss=0.5406 train_acc=0.8135 test_acc=0.8099
- 80%|████████  | 40/50 [18:23<04:37, 27.71s/epoch]epoch=041 lr=9.35822e-05 loss=0.5219 train_acc=0.8211 test_acc=0.8110
- 82%|████████▏ | 41/50 [18:51<04:09, 27.72s/epoch]epoch=042 lr=7.63932e-05 loss=0.5118 train_acc=0.8256 test_acc=0.8195
- 84%|████████▍ | 42/50 [19:19<03:42, 27.81s/epoch]epoch=043 lr=6.07808e-05 loss=0.4998 train_acc=0.8287 test_acc=0.8246
- 86%|████████▌ | 43/50 [19:47<03:15, 27.86s/epoch]epoch=044 lr=4.6821e-05 loss=0.4861 train_acc=0.8345 test_acc=0.8271
- 88%|████████▊ | 44/50 [20:15<02:47, 27.88s/epoch]epoch=045 lr=3.45818e-05 loss=0.4796 train_acc=0.8370 test_acc=0.8302
- 90%|█████████ | 45/50 [20:42<02:19, 27.86s/epoch]epoch=046 lr=2.4123e-05 loss=0.4685 train_acc=0.8399 test_acc=0.8320
- 92%|█████████▏| 46/50 [21:11<01:51, 27.98s/epoch]epoch=047 lr=1.54953e-05 loss=0.4660 train_acc=0.8428 test_acc=0.8309
- 94%|█████████▍| 47/50 [21:38<01:23, 27.87s/epoch]epoch=048 lr=8.74096e-06 loss=0.4578 train_acc=0.8444 test_acc=0.8346
- 96%|█████████▌| 48/50 [22:06<00:55, 27.91s/epoch]epoch=049 lr=3.89277e-06 loss=0.4531 train_acc=0.8472 test_acc=0.8356
- 98%|█████████▊| 49/50 [22:34<00:27, 27.87s/epoch]epoch=050 lr=9.7438e-07 loss=0.4555 train_acc=0.8456 test_acc=0.8372
-100%|██████████| 50/50 [23:02<00:00, 27.85s/epoch]100%|██████████| 50/50 [23:02<00:00, 27.65s/epoch]
-
-Training activation_sigmoid
-  0%|          | 0/50 [00:00<?, ?epoch/s]epoch=001 lr=0.00016 loss=2.3260 train_acc=0.1378 test_acc=0.2076
-  2%|▏         | 1/50 [00:28<22:54, 28.05s/epoch]epoch=002 lr=0.00032 loss=1.9898 train_acc=0.2208 test_acc=0.1441
-  4%|▍         | 2/50 [00:56<22:23, 28.00s/epoch]epoch=003 lr=0.00048 loss=1.7808 train_acc=0.2839 test_acc=0.1990
-  6%|▌         | 3/50 [01:23<21:54, 27.97s/epoch]epoch=004 lr=0.00064 loss=1.6713 train_acc=0.3248 test_acc=0.1129
-  8%|▊         | 4/50 [01:51<21:21, 27.86s/epoch]epoch=005 lr=0.0008 loss=1.5881 train_acc=0.3629 test_acc=0.1563
- 10%|█         | 5/50 [02:19<20:54, 27.88s/epoch]epoch=006 lr=0.0008 loss=1.4757 train_acc=0.4175 test_acc=0.1870
- 12%|█▏        | 6/50 [02:47<20:25, 27.85s/epoch]epoch=007 lr=0.000799026 loss=1.4392 train_acc=0.4376 test_acc=0.1310
- 14%|█▍        | 7/50 [03:15<19:57, 27.86s/epoch]epoch=008 lr=0.000796107 loss=1.4116 train_acc=0.4576 test_acc=0.1613
- 16%|█▌        | 8/50 [03:43<19:40, 28.11s/epoch]epoch=009 lr=0.000791259 loss=1.3869 train_acc=0.4696 test_acc=0.1396
- 18%|█▊        | 9/50 [04:11<19:03, 27.90s/epoch]epoch=010 lr=0.000784505 loss=1.3586 train_acc=0.4877 test_acc=0.1000
- 20%|██        | 10/50 [04:38<18:32, 27.81s/epoch]epoch=011 lr=0.000775877 loss=1.3409 train_acc=0.4985 test_acc=0.1797
- 22%|██▏       | 11/50 [05:06<18:05, 27.83s/epoch]epoch=012 lr=0.000765418 loss=1.3102 train_acc=0.5135 test_acc=0.1000
- 24%|██▍       | 12/50 [05:34<17:36, 27.80s/epoch]epoch=013 lr=0.000753179 loss=1.2953 train_acc=0.5195 test_acc=0.1030
- 26%|██▌       | 13/50 [06:02<17:09, 27.83s/epoch]epoch=014 lr=0.000739219 loss=1.2756 train_acc=0.5280 test_acc=0.1476
- 28%|██▊       | 14/50 [06:30<16:41, 27.82s/epoch]epoch=015 lr=0.000723607 loss=1.2615 train_acc=0.5350 test_acc=0.1000
- 30%|███       | 15/50 [06:57<16:11, 27.75s/epoch]epoch=016 lr=0.000706418 loss=1.2487 train_acc=0.5397 test_acc=0.1000
- 32%|███▏      | 16/50 [07:25<15:44, 27.77s/epoch]epoch=017 lr=0.000687736 loss=1.2192 train_acc=0.5533 test_acc=0.1098
- 32%|███▏      | 16/50 [07:53<16:45, 29.58s/epoch]
-
-Training structure_blocks_5
-  0%|          | 0/50 [00:00<?, ?epoch/s]epoch=001 lr=0.00016 loss=2.1916 train_acc=0.1622 test_acc=0.2434
-  2%|▏         | 1/50 [00:27<22:30, 27.56s/epoch]epoch=002 lr=0.00032 loss=1.8353 train_acc=0.2991 test_acc=0.3746
-  4%|▍         | 2/50 [00:54<21:39, 27.08s/epoch]epoch=003 lr=0.00048 loss=1.6102 train_acc=0.4066 test_acc=0.4349
-  6%|▌         | 3/50 [01:21<21:07, 26.96s/epoch]epoch=004 lr=0.00064 loss=1.4174 train_acc=0.4927 test_acc=0.5158
-  8%|▊         | 4/50 [01:48<20:40, 26.97s/epoch]epoch=005 lr=0.0008 loss=1.2440 train_acc=0.5575 test_acc=0.5515
- 10%|█         | 5/50 [02:15<20:20, 27.12s/epoch]epoch=006 lr=0.0008 loss=1.0407 train_acc=0.6340 test_acc=0.6676
- 12%|█▏        | 6/50 [02:42<19:50, 27.05s/epoch]epoch=007 lr=0.000799026 loss=0.9671 train_acc=0.6616 test_acc=0.6789
- 14%|█▍        | 7/50 [03:09<19:22, 27.04s/epoch]epoch=008 lr=0.000796107 loss=0.9122 train_acc=0.6815 test_acc=0.6441
- 16%|█▌        | 8/50 [03:36<18:59, 27.14s/epoch]epoch=009 lr=0.000791259 loss=0.8714 train_acc=0.7001 test_acc=0.6789
- 18%|█▊        | 9/50 [04:03<18:29, 27.07s/epoch]epoch=010 lr=0.000784505 loss=0.8273 train_acc=0.7175 test_acc=0.7128
- 20%|██        | 10/50 [04:30<18:03, 27.10s/epoch]epoch=011 lr=0.000775877 loss=0.7946 train_acc=0.7292 test_acc=0.7534
- 22%|██▏       | 11/50 [04:57<17:32, 26.99s/epoch]epoch=012 lr=0.000765418 loss=0.7567 train_acc=0.7430 test_acc=0.7082
- 24%|██▍       | 12/50 [05:24<17:06, 27.00s/epoch]epoch=013 lr=0.000753179 loss=0.7277 train_acc=0.7544 test_acc=0.7285
- 26%|██▌       | 13/50 [05:52<16:44, 27.15s/epoch]epoch=014 lr=0.000739219 loss=0.7023 train_acc=0.7657 test_acc=0.7311
- 28%|██▊       | 14/50 [06:19<16:18, 27.18s/epoch]epoch=015 lr=0.000723607 loss=0.6738 train_acc=0.7740 test_acc=0.7392
- 30%|███       | 15/50 [06:46<15:50, 27.17s/epoch]epoch=016 lr=0.000706418 loss=0.6521 train_acc=0.7814 test_acc=0.7222
- 32%|███▏      | 16/50 [07:13<15:17, 27.00s/epoch]epoch=017 lr=0.000687736 loss=0.6272 train_acc=0.7899 test_acc=0.7792
- 34%|███▍      | 17/50 [07:39<14:42, 26.73s/epoch]epoch=018 lr=0.000667652 loss=0.6110 train_acc=0.7945 test_acc=0.7594
- 36%|███▌      | 18/50 [08:06<14:16, 26.77s/epoch]epoch=019 lr=0.000646265 loss=0.5838 train_acc=0.8036 test_acc=0.7874
- 38%|███▊      | 19/50 [08:32<13:49, 26.76s/epoch]epoch=020 lr=0.000623677 loss=0.5653 train_acc=0.8115 test_acc=0.7652
- 40%|████      | 20/50 [08:59<13:25, 26.86s/epoch]epoch=021 lr=0.0006 loss=0.5471 train_acc=0.8172 test_acc=0.7872
- 42%|████▏     | 21/50 [09:25<12:49, 26.55s/epoch]epoch=022 lr=0.000575348 loss=0.5282 train_acc=0.8244 test_acc=0.8019
- 44%|████▍     | 22/50 [09:51<12:20, 26.45s/epoch]epoch=023 lr=0.000549843 loss=0.5071 train_acc=0.8299 test_acc=0.8121
- 46%|████▌     | 23/50 [10:17<11:46, 26.17s/epoch]epoch=024 lr=0.000523607 loss=0.4913 train_acc=0.8369 test_acc=0.7967
- 48%|████▊     | 24/50 [10:43<11:19, 26.12s/epoch]epoch=025 lr=0.000496769 loss=0.4744 train_acc=0.8435 test_acc=0.8153
- 50%|█████     | 25/50 [11:09<10:51, 26.07s/epoch]epoch=026 lr=0.000469459 loss=0.4581 train_acc=0.8488 test_acc=0.8309
- 52%|█████▏    | 26/50 [11:35<10:28, 26.19s/epoch]epoch=027 lr=0.000441811 loss=0.4529 train_acc=0.8488 test_acc=0.8353
- 54%|█████▍    | 27/50 [12:02<10:01, 26.17s/epoch]epoch=028 lr=0.00041396 loss=0.4292 train_acc=0.8578 test_acc=0.8106
- 56%|█████▌    | 28/50 [12:28<09:36, 26.22s/epoch]epoch=029 lr=0.00038604 loss=0.4109 train_acc=0.8637 test_acc=0.8462
- 58%|█████▊    | 29/50 [12:54<09:11, 26.26s/epoch]epoch=030 lr=0.000358189 loss=0.3960 train_acc=0.8689 test_acc=0.8541
- 60%|██████    | 30/50 [13:20<08:45, 26.27s/epoch]epoch=031 lr=0.000330541 loss=0.3829 train_acc=0.8743 test_acc=0.8491
- 62%|██████▏   | 31/50 [13:46<08:17, 26.18s/epoch]epoch=032 lr=0.000303231 loss=0.3683 train_acc=0.8777 test_acc=0.8556
- 64%|██████▍   | 32/50 [14:13<07:52, 26.26s/epoch]epoch=033 lr=0.000276393 loss=0.3490 train_acc=0.8856 test_acc=0.8521
- 66%|██████▌   | 33/50 [14:39<07:25, 26.18s/epoch]epoch=034 lr=0.000250157 loss=0.3383 train_acc=0.8896 test_acc=0.8517
- 68%|██████▊   | 34/50 [15:05<06:58, 26.14s/epoch]epoch=035 lr=0.000224652 loss=0.3292 train_acc=0.8913 test_acc=0.8544
- 70%|███████   | 35/50 [15:32<06:35, 26.37s/epoch]epoch=036 lr=0.0002 loss=0.3080 train_acc=0.8978 test_acc=0.8678
- 72%|███████▏  | 36/50 [15:58<06:08, 26.30s/epoch]epoch=037 lr=0.000176323 loss=0.2979 train_acc=0.9021 test_acc=0.8735
- 74%|███████▍  | 37/50 [16:24<05:41, 26.28s/epoch]epoch=038 lr=0.000153735 loss=0.2815 train_acc=0.9079 test_acc=0.8695
- 76%|███████▌  | 38/50 [16:51<05:16, 26.33s/epoch]epoch=039 lr=0.000132348 loss=0.2704 train_acc=0.9108 test_acc=0.8726
- 78%|███████▊  | 39/50 [17:17<04:49, 26.32s/epoch]epoch=040 lr=0.000112264 loss=0.2585 train_acc=0.9146 test_acc=0.8768
- 80%|████████  | 40/50 [17:43<04:23, 26.34s/epoch]epoch=041 lr=9.35822e-05 loss=0.2502 train_acc=0.9188 test_acc=0.8754
- 82%|████████▏ | 41/50 [18:09<03:56, 26.27s/epoch]epoch=042 lr=7.63932e-05 loss=0.2338 train_acc=0.9244 test_acc=0.8790
- 84%|████████▍ | 42/50 [18:36<03:31, 26.49s/epoch]epoch=043 lr=6.07808e-05 loss=0.2257 train_acc=0.9260 test_acc=0.8835
- 86%|████████▌ | 43/50 [19:04<03:07, 26.79s/epoch]epoch=044 lr=4.6821e-05 loss=0.2195 train_acc=0.9281 test_acc=0.8836
- 88%|████████▊ | 44/50 [19:31<02:41, 26.88s/epoch]epoch=045 lr=3.45818e-05 loss=0.2093 train_acc=0.9324 test_acc=0.8834
- 90%|█████████ | 45/50 [19:57<02:13, 26.75s/epoch]epoch=046 lr=2.4123e-05 loss=0.2094 train_acc=0.9320 test_acc=0.8873
- 92%|█████████▏| 46/50 [20:24<01:46, 26.58s/epoch]epoch=047 lr=1.54953e-05 loss=0.2075 train_acc=0.9330 test_acc=0.8891
- 94%|█████████▍| 47/50 [20:50<01:19, 26.49s/epoch]epoch=048 lr=8.74096e-06 loss=0.1985 train_acc=0.9359 test_acc=0.8883
- 96%|█████████▌| 48/50 [21:17<00:53, 26.60s/epoch]epoch=049 lr=3.89277e-06 loss=0.1969 train_acc=0.9352 test_acc=0.8876
- 98%|█████████▊| 49/50 [21:43<00:26, 26.47s/epoch]epoch=050 lr=9.7438e-07 loss=0.1961 train_acc=0.9361 test_acc=0.8882
-100%|██████████| 50/50 [22:09<00:00, 26.35s/epoch]100%|██████████| 50/50 [22:09<00:00, 26.59s/epoch]
-
-Training structure_blocks_6
-  0%|          | 0/50 [00:00<?, ?epoch/s]epoch=001 lr=0.00016 loss=2.2576 train_acc=0.1386 test_acc=0.2146
-  2%|▏         | 1/50 [00:27<22:24, 27.43s/epoch]epoch=002 lr=0.00032 loss=1.9230 train_acc=0.2619 test_acc=0.3601
-  4%|▍         | 2/50 [00:55<22:02, 27.55s/epoch]epoch=003 lr=0.00048 loss=1.6976 train_acc=0.3653 test_acc=0.4355
-  6%|▌         | 3/50 [01:23<21:48, 27.83s/epoch]epoch=004 lr=0.00064 loss=1.5012 train_acc=0.4610 test_acc=0.4360
-  8%|▊         | 4/50 [01:51<21:21, 27.85s/epoch]epoch=005 lr=0.0008 loss=1.3425 train_acc=0.5243 test_acc=0.5631
- 10%|█         | 5/50 [02:19<20:55, 27.90s/epoch]epoch=006 lr=0.0008 loss=1.1575 train_acc=0.5924 test_acc=0.6200
- 12%|█▏        | 6/50 [02:46<20:23, 27.80s/epoch]epoch=007 lr=0.000799026 loss=1.0899 train_acc=0.6190 test_acc=0.6259
- 14%|█▍        | 7/50 [03:14<19:59, 27.89s/epoch]epoch=008 lr=0.000796107 loss=1.0495 train_acc=0.6331 test_acc=0.6445
- 16%|█▌        | 8/50 [03:42<19:28, 27.81s/epoch]epoch=009 lr=0.000791259 loss=1.0152 train_acc=0.6473 test_acc=0.6254
- 18%|█▊        | 9/50 [04:10<19:02, 27.86s/epoch]epoch=010 lr=0.000784505 loss=0.9677 train_acc=0.6659 test_acc=0.6481
- 20%|██        | 10/50 [04:38<18:33, 27.84s/epoch]epoch=011 lr=0.000775877 loss=0.9413 train_acc=0.6777 test_acc=0.6744
- 22%|██▏       | 11/50 [05:06<18:10, 27.95s/epoch]epoch=012 lr=0.000765418 loss=0.8956 train_acc=0.6914 test_acc=0.7084
- 24%|██▍       | 12/50 [05:34<17:42, 27.97s/epoch]epoch=013 lr=0.000753179 loss=0.8616 train_acc=0.7047 test_acc=0.6714
- 26%|██▌       | 13/50 [06:01<17:09, 27.83s/epoch]epoch=014 lr=0.000739219 loss=0.8250 train_acc=0.7215 test_acc=0.6726
- 28%|██▊       | 14/50 [06:29<16:41, 27.82s/epoch]epoch=015 lr=0.000723607 loss=0.7937 train_acc=0.7304 test_acc=0.7037
- 30%|███       | 15/50 [06:57<16:10, 27.74s/epoch]epoch=016 lr=0.000706418 loss=0.7587 train_acc=0.7448 test_acc=0.6902
- 32%|███▏      | 16/50 [07:24<15:41, 27.69s/epoch]epoch=017 lr=0.000687736 loss=0.7296 train_acc=0.7539 test_acc=0.7450
- 34%|███▍      | 17/50 [07:53<15:18, 27.84s/epoch]epoch=018 lr=0.000667652 loss=0.7029 train_acc=0.7622 test_acc=0.6771
- 36%|███▌      | 18/50 [08:20<14:51, 27.86s/epoch]epoch=019 lr=0.000646265 loss=0.6692 train_acc=0.7765 test_acc=0.7630
- 38%|███▊      | 19/50 [08:48<14:20, 27.76s/epoch]epoch=020 lr=0.000623677 loss=0.6487 train_acc=0.7829 test_acc=0.7607
- 40%|████      | 20/50 [09:16<13:54, 27.83s/epoch]epoch=021 lr=0.0006 loss=0.6214 train_acc=0.7927 test_acc=0.7764
- 42%|████▏     | 21/50 [09:44<13:24, 27.76s/epoch]epoch=022 lr=0.000575348 loss=0.6034 train_acc=0.7999 test_acc=0.7499
- 44%|████▍     | 22/50 [10:11<12:58, 27.81s/epoch]epoch=023 lr=0.000549843 loss=0.5799 train_acc=0.8075 test_acc=0.7419
- 46%|████▌     | 23/50 [10:39<12:28, 27.72s/epoch]epoch=024 lr=0.000523607 loss=0.5631 train_acc=0.8112 test_acc=0.7870
- 48%|████▊     | 24/50 [11:07<12:01, 27.75s/epoch]epoch=025 lr=0.000496769 loss=0.5339 train_acc=0.8226 test_acc=0.8084
- 50%|█████     | 25/50 [11:34<11:29, 27.59s/epoch]epoch=026 lr=0.000469459 loss=0.5184 train_acc=0.8278 test_acc=0.7904
- 52%|█████▏    | 26/50 [12:02<11:02, 27.59s/epoch]epoch=027 lr=0.000441811 loss=0.5067 train_acc=0.8328 test_acc=0.8228
- 54%|█████▍    | 27/50 [12:29<10:34, 27.57s/epoch]epoch=028 lr=0.00041396 loss=0.4861 train_acc=0.8369 test_acc=0.8227
- 56%|█████▌    | 28/50 [12:57<10:05, 27.53s/epoch]epoch=029 lr=0.00038604 loss=0.4697 train_acc=0.8457 test_acc=0.8180
- 58%|█████▊    | 29/50 [13:24<09:38, 27.56s/epoch]epoch=030 lr=0.000358189 loss=0.4485 train_acc=0.8519 test_acc=0.8293
- 60%|██████    | 30/50 [13:52<09:13, 27.67s/epoch]epoch=031 lr=0.000330541 loss=0.4305 train_acc=0.8578 test_acc=0.8347
- 62%|██████▏   | 31/50 [14:20<08:47, 27.75s/epoch]epoch=032 lr=0.000303231 loss=0.4164 train_acc=0.8620 test_acc=0.8385
- 64%|██████▍   | 32/50 [14:48<08:21, 27.84s/epoch]epoch=033 lr=0.000276393 loss=0.4000 train_acc=0.8665 test_acc=0.8504
- 66%|██████▌   | 33/50 [15:16<07:52, 27.80s/epoch]epoch=034 lr=0.000250157 loss=0.3841 train_acc=0.8739 test_acc=0.8400
- 68%|██████▊   | 34/50 [15:43<07:24, 27.76s/epoch]epoch=035 lr=0.000224652 loss=0.3649 train_acc=0.8810 test_acc=0.8451
- 70%|███████   | 35/50 [16:11<06:55, 27.69s/epoch]epoch=036 lr=0.0002 loss=0.3432 train_acc=0.8866 test_acc=0.8485
- 72%|███████▏  | 36/50 [16:38<06:26, 27.61s/epoch]epoch=037 lr=0.000176323 loss=0.3339 train_acc=0.8898 test_acc=0.8526
- 74%|███████▍  | 37/50 [17:06<05:58, 27.61s/epoch]epoch=038 lr=0.000153735 loss=0.3226 train_acc=0.8942 test_acc=0.8541
- 76%|███████▌  | 38/50 [17:34<05:32, 27.74s/epoch]epoch=039 lr=0.000132348 loss=0.3100 train_acc=0.8985 test_acc=0.8697
- 78%|███████▊  | 39/50 [18:03<05:07, 27.97s/epoch]epoch=040 lr=0.000112264 loss=0.2928 train_acc=0.9039 test_acc=0.8642
- 80%|████████  | 40/50 [18:30<04:38, 27.83s/epoch]epoch=041 lr=9.35822e-05 loss=0.2837 train_acc=0.9069 test_acc=0.8675
- 82%|████████▏ | 41/50 [18:58<04:10, 27.80s/epoch]epoch=042 lr=7.63932e-05 loss=0.2692 train_acc=0.9117 test_acc=0.8766
- 84%|████████▍ | 42/50 [19:26<03:43, 27.90s/epoch]epoch=043 lr=6.07808e-05 loss=0.2616 train_acc=0.9144 test_acc=0.8770
- 86%|████████▌ | 43/50 [19:54<03:16, 28.08s/epoch]epoch=044 lr=4.6821e-05 loss=0.2537 train_acc=0.9167 test_acc=0.8769
- 88%|████████▊ | 44/50 [20:23<02:48, 28.16s/epoch]epoch=045 lr=3.45818e-05 loss=0.2469 train_acc=0.9214 test_acc=0.8817
- 90%|█████████ | 45/50 [20:51<02:20, 28.06s/epoch]epoch=046 lr=2.4123e-05 loss=0.2390 train_acc=0.9230 test_acc=0.8796
- 92%|█████████▏| 46/50 [21:18<01:51, 27.96s/epoch]epoch=047 lr=1.54953e-05 loss=0.2344 train_acc=0.9225 test_acc=0.8812
- 94%|█████████▍| 47/50 [21:46<01:23, 27.99s/epoch]epoch=048 lr=8.74096e-06 loss=0.2333 train_acc=0.9243 test_acc=0.8831
- 96%|█████████▌| 48/50 [22:15<00:56, 28.03s/epoch]epoch=049 lr=3.89277e-06 loss=0.2249 train_acc=0.9270 test_acc=0.8815
- 98%|█████████▊| 49/50 [22:42<00:28, 28.01s/epoch]epoch=050 lr=9.7438e-07 loss=0.2243 train_acc=0.9272 test_acc=0.8814
-100%|██████████| 50/50 [23:10<00:00, 27.90s/epoch]100%|██████████| 50/50 [23:10<00:00, 27.81s/epoch]
-
-Training structure_blocks_7
-  0%|          | 0/50 [00:00<?, ?epoch/s]epoch=001 lr=0.00016 loss=2.3031 train_acc=0.1259 test_acc=0.1690
-  2%|▏         | 1/50 [00:28<23:03, 28.24s/epoch]epoch=002 lr=0.00032 loss=2.0418 train_acc=0.2307 test_acc=0.3366
-  4%|▍         | 2/50 [00:56<22:48, 28.51s/epoch]epoch=003 lr=0.00048 loss=1.7781 train_acc=0.3245 test_acc=0.3961
-  6%|▌         | 3/50 [01:24<22:07, 28.24s/epoch]epoch=004 lr=0.00064 loss=1.6036 train_acc=0.4076 test_acc=0.4195
-  8%|▊         | 4/50 [01:53<21:42, 28.32s/epoch]epoch=005 lr=0.0008 loss=1.4352 train_acc=0.4802 test_acc=0.5048
- 10%|█         | 5/50 [02:21<21:12, 28.29s/epoch]epoch=006 lr=0.0008 loss=1.2519 train_acc=0.5546 test_acc=0.5884
- 12%|█▏        | 6/50 [02:49<20:42, 28.25s/epoch]epoch=007 lr=0.000799026 loss=1.1771 train_acc=0.5812 test_acc=0.5918
- 14%|█▍        | 7/50 [03:18<20:20, 28.39s/epoch]epoch=008 lr=0.000796107 loss=1.1278 train_acc=0.5987 test_acc=0.6152
- 16%|█▌        | 8/50 [03:45<19:38, 28.07s/epoch]epoch=009 lr=0.000791259 loss=1.0825 train_acc=0.6172 test_acc=0.6348
- 18%|█▊        | 9/50 [04:13<19:09, 28.05s/epoch]epoch=010 lr=0.000784505 loss=1.0471 train_acc=0.6329 test_acc=0.6316
- 20%|██        | 10/50 [04:41<18:36, 27.92s/epoch]epoch=011 lr=0.000775877 loss=1.0002 train_acc=0.6505 test_acc=0.5996
- 22%|██▏       | 11/50 [05:05<17:23, 26.76s/epoch]epoch=012 lr=0.000765418 loss=0.9641 train_acc=0.6676 test_acc=0.6763
- 24%|██▍       | 12/50 [05:31<16:45, 26.47s/epoch]epoch=013 lr=0.000753179 loss=0.9163 train_acc=0.6840 test_acc=0.6560
- 26%|██▌       | 13/50 [05:57<16:14, 26.34s/epoch]epoch=014 lr=0.000739219 loss=0.8834 train_acc=0.6983 test_acc=0.6743
- 28%|██▊       | 14/50 [06:26<16:13, 27.03s/epoch]epoch=015 lr=0.000723607 loss=0.8484 train_acc=0.7109 test_acc=0.7017
- 30%|███       | 15/50 [06:54<16:05, 27.58s/epoch]epoch=016 lr=0.000706418 loss=0.8178 train_acc=0.7225 test_acc=0.7330
- 32%|███▏      | 16/50 [07:24<15:55, 28.11s/epoch]epoch=017 lr=0.000687736 loss=0.7886 train_acc=0.7337 test_acc=0.6798
- 34%|███▍      | 17/50 [07:53<15:40, 28.49s/epoch]epoch=018 lr=0.000667652 loss=0.7491 train_acc=0.7449 test_acc=0.6709
- 36%|███▌      | 18/50 [08:22<15:18, 28.71s/epoch]epoch=019 lr=0.000646265 loss=0.7188 train_acc=0.7582 test_acc=0.7390
- 38%|███▊      | 19/50 [08:51<14:50, 28.72s/epoch]epoch=020 lr=0.000623677 loss=0.6954 train_acc=0.7672 test_acc=0.7089
- 40%|████      | 20/50 [09:20<14:27, 28.91s/epoch]epoch=021 lr=0.0006 loss=0.6723 train_acc=0.7746 test_acc=0.7556
- 42%|████▏     | 21/50 [09:50<14:04, 29.13s/epoch]epoch=022 lr=0.000575348 loss=0.6444 train_acc=0.7846 test_acc=0.7620
- 44%|████▍     | 22/50 [10:19<13:32, 29.03s/epoch]epoch=023 lr=0.000549843 loss=0.6181 train_acc=0.7923 test_acc=0.7005
- 46%|████▌     | 23/50 [10:48<13:03, 29.01s/epoch]epoch=024 lr=0.000523607 loss=0.5999 train_acc=0.7988 test_acc=0.7757
- 48%|████▊     | 24/50 [11:17<12:34, 29.02s/epoch]epoch=025 lr=0.000496769 loss=0.5768 train_acc=0.8073 test_acc=0.7873
- 50%|█████     | 25/50 [11:46<12:05, 29.00s/epoch]epoch=026 lr=0.000469459 loss=0.5478 train_acc=0.8173 test_acc=0.7920
- 52%|█████▏    | 26/50 [12:15<11:39, 29.13s/epoch]epoch=027 lr=0.000441811 loss=0.5312 train_acc=0.8229 test_acc=0.8090
- 54%|█████▍    | 27/50 [12:44<11:10, 29.16s/epoch]epoch=028 lr=0.00041396 loss=0.5121 train_acc=0.8292 test_acc=0.8046
- 56%|█████▌    | 28/50 [13:13<10:39, 29.06s/epoch]epoch=029 lr=0.00038604 loss=0.4898 train_acc=0.8379 test_acc=0.8189
- 58%|█████▊    | 29/50 [13:42<10:10, 29.06s/epoch]epoch=030 lr=0.000358189 loss=0.4780 train_acc=0.8398 test_acc=0.8215
- 60%|██████    | 30/50 [14:12<09:41, 29.10s/epoch]epoch=031 lr=0.000330541 loss=0.4515 train_acc=0.8497 test_acc=0.8268
- 62%|██████▏   | 31/50 [14:40<09:11, 29.04s/epoch]epoch=032 lr=0.000303231 loss=0.4368 train_acc=0.8542 test_acc=0.8173
- 64%|██████▍   | 32/50 [15:09<08:40, 28.93s/epoch]epoch=033 lr=0.000276393 loss=0.4245 train_acc=0.8604 test_acc=0.8309
- 66%|██████▌   | 33/50 [15:38<08:10, 28.87s/epoch]epoch=034 lr=0.000250157 loss=0.4011 train_acc=0.8662 test_acc=0.8353
- 68%|██████▊   | 34/50 [16:06<07:39, 28.75s/epoch]epoch=035 lr=0.000224652 loss=0.3885 train_acc=0.8722 test_acc=0.8487
- 70%|███████   | 35/50 [16:35<07:11, 28.78s/epoch]epoch=036 lr=0.0002 loss=0.3704 train_acc=0.8770 test_acc=0.8475
- 72%|███████▏  | 36/50 [17:04<06:42, 28.78s/epoch]epoch=037 lr=0.000176323 loss=0.3521 train_acc=0.8837 test_acc=0.8559
- 74%|███████▍  | 37/50 [17:33<06:14, 28.82s/epoch]epoch=038 lr=0.000153735 loss=0.3455 train_acc=0.8858 test_acc=0.8536
- 76%|███████▌  | 38/50 [18:02<05:46, 28.84s/epoch]epoch=039 lr=0.000132348 loss=0.3243 train_acc=0.8932 test_acc=0.8655
- 78%|███████▊  | 39/50 [18:31<05:18, 28.99s/epoch]epoch=040 lr=0.000112264 loss=0.3084 train_acc=0.8976 test_acc=0.8669
- 80%|████████  | 40/50 [19:01<04:51, 29.18s/epoch]epoch=041 lr=9.35822e-05 loss=0.2934 train_acc=0.9040 test_acc=0.8707
- 82%|████████▏ | 41/50 [19:30<04:23, 29.26s/epoch]epoch=042 lr=7.63932e-05 loss=0.2867 train_acc=0.9060 test_acc=0.8683
- 84%|████████▍ | 42/50 [20:00<03:55, 29.41s/epoch]epoch=043 lr=6.07808e-05 loss=0.2747 train_acc=0.9111 test_acc=0.8776
- 86%|████████▌ | 43/50 [20:29<03:25, 29.42s/epoch]epoch=044 lr=4.6821e-05 loss=0.2633 train_acc=0.9134 test_acc=0.8754
- 88%|████████▊ | 44/50 [20:59<02:56, 29.42s/epoch]epoch=045 lr=3.45818e-05 loss=0.2563 train_acc=0.9152 test_acc=0.8785
- 90%|█████████ | 45/50 [21:28<02:26, 29.37s/epoch]epoch=046 lr=2.4123e-05 loss=0.2512 train_acc=0.9182 test_acc=0.8782
- 92%|█████████▏| 46/50 [21:57<01:57, 29.38s/epoch]epoch=047 lr=1.54953e-05 loss=0.2454 train_acc=0.9206 test_acc=0.8782
- 94%|█████████▍| 47/50 [22:27<01:28, 29.41s/epoch]epoch=048 lr=8.74096e-06 loss=0.2367 train_acc=0.9233 test_acc=0.8793
- 96%|█████████▌| 48/50 [22:56<00:58, 29.23s/epoch]epoch=049 lr=3.89277e-06 loss=0.2403 train_acc=0.9215 test_acc=0.8809
- 98%|█████████▊| 49/50 [23:25<00:29, 29.25s/epoch]epoch=050 lr=9.7438e-07 loss=0.2356 train_acc=0.9241 test_acc=0.8794
-100%|██████████| 50/50 [23:54<00:00, 29.21s/epoch]100%|██████████| 50/50 [23:54<00:00, 28.69s/epoch]
-
-Training loss_wd_5e-5
-  0%|          | 0/50 [00:00<?, ?epoch/s]epoch=001 lr=0.00016 loss=2.2649 train_acc=0.1412 test_acc=0.2228
-  2%|▏         | 1/50 [00:27<22:44, 27.84s/epoch]epoch=002 lr=0.00032 loss=1.9115 train_acc=0.2750 test_acc=0.3486
-  4%|▍         | 2/50 [00:55<22:14, 27.80s/epoch]epoch=003 lr=0.00048 loss=1.6726 train_acc=0.3756 test_acc=0.4576
-  6%|▌         | 3/50 [01:23<21:53, 27.95s/epoch]epoch=004 lr=0.00064 loss=1.4941 train_acc=0.4568 test_acc=0.4926
-  8%|▊         | 4/50 [01:51<21:22, 27.87s/epoch]epoch=005 lr=0.0008 loss=1.3148 train_acc=0.5361 test_acc=0.5264
- 10%|█         | 5/50 [02:19<20:55, 27.89s/epoch]epoch=006 lr=0.0008 loss=1.1216 train_acc=0.6072 test_acc=0.6419
- 12%|█▏        | 6/50 [02:48<20:38, 28.15s/epoch]epoch=007 lr=0.000799026 loss=1.0556 train_acc=0.6327 test_acc=0.6327
- 14%|█▍        | 7/50 [03:15<20:02, 27.96s/epoch]epoch=008 lr=0.000796107 loss=0.9996 train_acc=0.6503 test_acc=0.6653
- 16%|█▌        | 8/50 [03:43<19:35, 27.99s/epoch]epoch=009 lr=0.000791259 loss=0.9597 train_acc=0.6668 test_acc=0.6811
- 18%|█▊        | 9/50 [04:11<19:05, 27.94s/epoch]epoch=010 lr=0.000784505 loss=0.9102 train_acc=0.6870 test_acc=0.6807
- 20%|██        | 10/50 [04:39<18:37, 27.93s/epoch]epoch=011 lr=0.000775877 loss=0.8709 train_acc=0.7030 test_acc=0.6752
- 22%|██▏       | 11/50 [05:07<18:07, 27.88s/epoch]epoch=012 lr=0.000765418 loss=0.8367 train_acc=0.7129 test_acc=0.6787
- 24%|██▍       | 12/50 [05:34<17:37, 27.84s/epoch]epoch=013 lr=0.000753179 loss=0.8014 train_acc=0.7256 test_acc=0.7062
- 26%|██▌       | 13/50 [06:03<17:16, 28.02s/epoch]epoch=014 lr=0.000739219 loss=0.7637 train_acc=0.7407 test_acc=0.7288
- 28%|██▊       | 14/50 [06:32<16:55, 28.21s/epoch]epoch=015 lr=0.000723607 loss=0.7315 train_acc=0.7528 test_acc=0.6901
- 30%|███       | 15/50 [07:00<16:29, 28.27s/epoch]epoch=016 lr=0.000706418 loss=0.7066 train_acc=0.7619 test_acc=0.7360
- 32%|███▏      | 16/50 [07:28<15:57, 28.17s/epoch]epoch=017 lr=0.000687736 loss=0.6691 train_acc=0.7737 test_acc=0.7704
- 34%|███▍      | 17/50 [07:55<15:24, 28.00s/epoch]epoch=018 lr=0.000667652 loss=0.6514 train_acc=0.7798 test_acc=0.7724
- 36%|███▌      | 18/50 [08:23<14:51, 27.87s/epoch]epoch=019 lr=0.000646265 loss=0.6145 train_acc=0.7901 test_acc=0.7536
- 38%|███▊      | 19/50 [08:51<14:21, 27.78s/epoch]epoch=020 lr=0.000623677 loss=0.5980 train_acc=0.7990 test_acc=0.7741
- 40%|████      | 20/50 [09:18<13:51, 27.73s/epoch]epoch=021 lr=0.0006 loss=0.5722 train_acc=0.8068 test_acc=0.7799
- 42%|████▏     | 21/50 [09:46<13:24, 27.73s/epoch]epoch=022 lr=0.000575348 loss=0.5498 train_acc=0.8121 test_acc=0.7960
- 44%|████▍     | 22/50 [10:14<12:55, 27.71s/epoch]epoch=023 lr=0.000549843 loss=0.5305 train_acc=0.8213 test_acc=0.8152
- 46%|████▌     | 23/50 [10:41<12:28, 27.72s/epoch]epoch=024 lr=0.000523607 loss=0.5037 train_acc=0.8299 test_acc=0.8112
- 48%|████▊     | 24/50 [11:09<11:58, 27.64s/epoch]epoch=025 lr=0.000496769 loss=0.4837 train_acc=0.8364 test_acc=0.7982
- 50%|█████     | 25/50 [11:36<11:30, 27.62s/epoch]epoch=026 lr=0.000469459 loss=0.4674 train_acc=0.8420 test_acc=0.8187
- 52%|█████▏    | 26/50 [12:04<11:00, 27.52s/epoch]epoch=027 lr=0.000441811 loss=0.4505 train_acc=0.8494 test_acc=0.8301
- 54%|█████▍    | 27/50 [12:32<10:35, 27.63s/epoch]epoch=028 lr=0.00041396 loss=0.4354 train_acc=0.8516 test_acc=0.8370
- 56%|█████▌    | 28/50 [12:59<10:07, 27.61s/epoch]epoch=029 lr=0.00038604 loss=0.4185 train_acc=0.8574 test_acc=0.8361
- 58%|█████▊    | 29/50 [13:27<09:41, 27.69s/epoch]epoch=030 lr=0.000358189 loss=0.3986 train_acc=0.8644 test_acc=0.8225
- 60%|██████    | 30/50 [13:55<09:12, 27.65s/epoch]epoch=031 lr=0.000330541 loss=0.3862 train_acc=0.8700 test_acc=0.8201
- 62%|██████▏   | 31/50 [14:23<08:47, 27.74s/epoch]epoch=032 lr=0.000303231 loss=0.3721 train_acc=0.8735 test_acc=0.8299
- 64%|██████▍   | 32/50 [14:51<08:21, 27.87s/epoch]epoch=033 lr=0.000276393 loss=0.3547 train_acc=0.8787 test_acc=0.8382
- 66%|██████▌   | 33/50 [15:19<07:55, 27.96s/epoch]epoch=034 lr=0.000250157 loss=0.3452 train_acc=0.8829 test_acc=0.8540
- 68%|██████▊   | 34/50 [15:47<07:26, 27.88s/epoch]epoch=035 lr=0.000224652 loss=0.3278 train_acc=0.8889 test_acc=0.8527
- 70%|███████   | 35/50 [16:14<06:56, 27.75s/epoch]epoch=036 lr=0.0002 loss=0.3153 train_acc=0.8922 test_acc=0.8589
- 72%|███████▏  | 36/50 [16:42<06:28, 27.72s/epoch]epoch=037 lr=0.000176323 loss=0.3059 train_acc=0.8961 test_acc=0.8496
- 74%|███████▍  | 37/50 [17:09<05:59, 27.67s/epoch]epoch=038 lr=0.000153735 loss=0.2907 train_acc=0.9007 test_acc=0.8572
- 76%|███████▌  | 38/50 [17:37<05:32, 27.69s/epoch]epoch=039 lr=0.000132348 loss=0.2784 train_acc=0.9045 test_acc=0.8683
- 78%|███████▊  | 39/50 [18:05<05:05, 27.80s/epoch]epoch=040 lr=0.000112264 loss=0.2714 train_acc=0.9069 test_acc=0.8677
- 80%|████████  | 40/50 [18:33<04:37, 27.75s/epoch]epoch=041 lr=9.35822e-05 loss=0.2628 train_acc=0.9095 test_acc=0.8695
- 82%|████████▏ | 41/50 [19:00<04:08, 27.65s/epoch]epoch=042 lr=7.63932e-05 loss=0.2531 train_acc=0.9140 test_acc=0.8709
- 84%|████████▍ | 42/50 [19:27<03:40, 27.58s/epoch]epoch=043 lr=6.07808e-05 loss=0.2471 train_acc=0.9168 test_acc=0.8701
- 86%|████████▌ | 43/50 [19:55<03:12, 27.56s/epoch]epoch=044 lr=4.6821e-05 loss=0.2435 train_acc=0.9165 test_acc=0.8732
- 88%|████████▊ | 44/50 [20:23<02:45, 27.57s/epoch]epoch=045 lr=3.45818e-05 loss=0.2390 train_acc=0.9185 test_acc=0.8768
- 90%|█████████ | 45/50 [20:50<02:18, 27.66s/epoch]epoch=046 lr=2.4123e-05 loss=0.2310 train_acc=0.9212 test_acc=0.8733
- 92%|█████████▏| 46/50 [21:18<01:50, 27.67s/epoch]epoch=047 lr=1.54953e-05 loss=0.2299 train_acc=0.9236 test_acc=0.8731
- 94%|█████████▍| 47/50 [21:46<01:22, 27.66s/epoch]epoch=048 lr=8.74096e-06 loss=0.2312 train_acc=0.9220 test_acc=0.8750
- 96%|█████████▌| 48/50 [22:13<00:55, 27.63s/epoch]epoch=049 lr=3.89277e-06 loss=0.2239 train_acc=0.9245 test_acc=0.8758
- 98%|█████████▊| 49/50 [22:41<00:27, 27.59s/epoch]epoch=050 lr=9.7438e-07 loss=0.2220 train_acc=0.9250 test_acc=0.8774
-100%|██████████| 50/50 [23:08<00:00, 27.60s/epoch]100%|██████████| 50/50 [23:08<00:00, 27.78s/epoch]
-
-Training loss_wd_3e-4
-  0%|          | 0/50 [00:00<?, ?epoch/s]epoch=001 lr=0.00016 loss=2.2712 train_acc=0.1369 test_acc=0.1790
-  2%|▏         | 1/50 [00:27<22:32, 27.60s/epoch]epoch=002 lr=0.00032 loss=1.9850 train_acc=0.2434 test_acc=0.3477
-  4%|▍         | 2/50 [00:55<22:25, 28.03s/epoch]epoch=003 lr=0.00048 loss=1.7256 train_acc=0.3592 test_acc=0.4304
-  6%|▌         | 3/50 [01:23<21:49, 27.85s/epoch]epoch=004 lr=0.00064 loss=1.5269 train_acc=0.4477 test_acc=0.4625
-  8%|▊         | 4/50 [01:50<21:12, 27.67s/epoch]epoch=005 lr=0.0008 loss=1.3425 train_acc=0.5201 test_acc=0.5382
- 10%|█         | 5/50 [02:18<20:44, 27.65s/epoch]epoch=006 lr=0.0008 loss=1.1461 train_acc=0.5961 test_acc=0.6284
- 12%|█▏        | 6/50 [02:46<20:18, 27.69s/epoch]epoch=007 lr=0.000799026 loss=1.0737 train_acc=0.6222 test_acc=0.6261
- 14%|█▍        | 7/50 [03:14<19:50, 27.69s/epoch]epoch=008 lr=0.000796107 loss=1.0278 train_acc=0.6361 test_acc=0.6477
- 16%|█▌        | 8/50 [03:42<19:26, 27.78s/epoch]epoch=009 lr=0.000791259 loss=0.9952 train_acc=0.6516 test_acc=0.6639
- 18%|█▊        | 9/50 [04:10<19:05, 27.94s/epoch]epoch=010 lr=0.000784505 loss=0.9434 train_acc=0.6769 test_acc=0.6078
- 20%|██        | 10/50 [04:38<18:37, 27.94s/epoch]epoch=011 lr=0.000775877 loss=0.9101 train_acc=0.6898 test_acc=0.6755
- 22%|██▏       | 11/50 [05:05<18:04, 27.80s/epoch]epoch=012 lr=0.000765418 loss=0.8647 train_acc=0.7052 test_acc=0.6604
- 24%|██▍       | 12/50 [05:33<17:36, 27.81s/epoch]epoch=013 lr=0.000753179 loss=0.8286 train_acc=0.7161 test_acc=0.7320
- 26%|██▌       | 13/50 [06:01<17:07, 27.78s/epoch]epoch=014 lr=0.000739219 loss=0.7915 train_acc=0.7308 test_acc=0.7434
- 28%|██▊       | 14/50 [06:29<16:41, 27.82s/epoch]epoch=015 lr=0.000723607 loss=0.7572 train_acc=0.7428 test_acc=0.6878
- 30%|███       | 15/50 [06:56<16:08, 27.68s/epoch]epoch=016 lr=0.000706418 loss=0.7320 train_acc=0.7518 test_acc=0.7356
- 32%|███▏      | 16/50 [07:23<15:37, 27.59s/epoch]epoch=017 lr=0.000687736 loss=0.6993 train_acc=0.7636 test_acc=0.7135
- 34%|███▍      | 17/50 [07:51<15:13, 27.69s/epoch]epoch=018 lr=0.000667652 loss=0.6739 train_acc=0.7744 test_acc=0.7437
- 36%|███▌      | 18/50 [08:20<14:55, 27.97s/epoch]epoch=019 lr=0.000646265 loss=0.6422 train_acc=0.7853 test_acc=0.7723
- 38%|███▊      | 19/50 [08:48<14:25, 27.92s/epoch]epoch=020 lr=0.000623677 loss=0.6206 train_acc=0.7912 test_acc=0.7596
- 40%|████      | 20/50 [09:15<13:52, 27.76s/epoch]epoch=021 lr=0.0006 loss=0.5936 train_acc=0.8009 test_acc=0.7903
- 42%|████▏     | 21/50 [09:43<13:24, 27.75s/epoch]epoch=022 lr=0.000575348 loss=0.5766 train_acc=0.8072 test_acc=0.7657
- 44%|████▍     | 22/50 [10:11<12:56, 27.74s/epoch]epoch=023 lr=0.000549843 loss=0.5625 train_acc=0.8133 test_acc=0.7251
- 46%|████▌     | 23/50 [10:39<12:30, 27.79s/epoch]epoch=024 lr=0.000523607 loss=0.5376 train_acc=0.8234 test_acc=0.8111
- 48%|████▊     | 24/50 [11:06<12:03, 27.83s/epoch]epoch=025 lr=0.000496769 loss=0.5176 train_acc=0.8271 test_acc=0.8036
- 50%|█████     | 25/50 [11:34<11:34, 27.80s/epoch]epoch=026 lr=0.000469459 loss=0.5016 train_acc=0.8328 test_acc=0.8006
- 52%|█████▏    | 26/50 [12:02<11:05, 27.73s/epoch]epoch=027 lr=0.000441811 loss=0.4841 train_acc=0.8411 test_acc=0.8309
- 54%|█████▍    | 27/50 [12:30<10:40, 27.86s/epoch]epoch=028 lr=0.00041396 loss=0.4712 train_acc=0.8445 test_acc=0.8231
- 56%|█████▌    | 28/50 [12:58<10:13, 27.88s/epoch]epoch=029 lr=0.00038604 loss=0.4547 train_acc=0.8501 test_acc=0.8380
- 58%|█████▊    | 29/50 [13:26<09:47, 27.98s/epoch]epoch=030 lr=0.000358189 loss=0.4319 train_acc=0.8569 test_acc=0.8159
- 60%|██████    | 30/50 [13:54<09:18, 27.94s/epoch]epoch=031 lr=0.000330541 loss=0.4122 train_acc=0.8632 test_acc=0.8401
- 62%|██████▏   | 31/50 [14:21<08:48, 27.81s/epoch]epoch=032 lr=0.000303231 loss=0.4006 train_acc=0.8672 test_acc=0.8303
- 64%|██████▍   | 32/50 [14:49<08:20, 27.78s/epoch]epoch=033 lr=0.000276393 loss=0.3834 train_acc=0.8728 test_acc=0.8341
- 66%|██████▌   | 33/50 [15:17<07:53, 27.84s/epoch]epoch=034 lr=0.000250157 loss=0.3688 train_acc=0.8769 test_acc=0.8496
- 68%|██████▊   | 34/50 [15:45<07:24, 27.78s/epoch]epoch=035 lr=0.000224652 loss=0.3548 train_acc=0.8832 test_acc=0.8552
- 70%|███████   | 35/50 [16:13<06:57, 27.82s/epoch]epoch=036 lr=0.0002 loss=0.3405 train_acc=0.8878 test_acc=0.8599
- 72%|███████▏  | 36/50 [16:41<06:29, 27.83s/epoch]epoch=037 lr=0.000176323 loss=0.3235 train_acc=0.8928 test_acc=0.8614
- 74%|███████▍  | 37/50 [17:09<06:02, 27.90s/epoch]epoch=038 lr=0.000153735 loss=0.3074 train_acc=0.8991 test_acc=0.8659
- 76%|███████▌  | 38/50 [17:37<05:35, 27.92s/epoch]epoch=039 lr=0.000132348 loss=0.2963 train_acc=0.9014 test_acc=0.8669
- 78%|███████▊  | 39/50 [18:04<05:06, 27.90s/epoch]epoch=040 lr=0.000112264 loss=0.2811 train_acc=0.9085 test_acc=0.8739
- 80%|████████  | 40/50 [18:32<04:38, 27.89s/epoch]epoch=041 lr=9.35822e-05 loss=0.2722 train_acc=0.9102 test_acc=0.8734
- 82%|████████▏ | 41/50 [19:00<04:10, 27.86s/epoch]epoch=042 lr=7.63932e-05 loss=0.2574 train_acc=0.9147 test_acc=0.8764
- 84%|████████▍ | 42/50 [19:28<03:42, 27.84s/epoch]epoch=043 lr=6.07808e-05 loss=0.2506 train_acc=0.9173 test_acc=0.8771
- 86%|████████▌ | 43/50 [19:55<03:14, 27.79s/epoch]epoch=044 lr=4.6821e-05 loss=0.2381 train_acc=0.9225 test_acc=0.8808
- 88%|████████▊ | 44/50 [20:23<02:46, 27.77s/epoch]epoch=045 lr=3.45818e-05 loss=0.2317 train_acc=0.9247 test_acc=0.8814
- 90%|█████████ | 45/50 [20:51<02:18, 27.75s/epoch]epoch=046 lr=2.4123e-05 loss=0.2241 train_acc=0.9276 test_acc=0.8797
- 92%|█████████▏| 46/50 [21:19<01:51, 27.77s/epoch]epoch=047 lr=1.54953e-05 loss=0.2188 train_acc=0.9285 test_acc=0.8826
- 94%|█████████▍| 47/50 [21:46<01:23, 27.76s/epoch]epoch=048 lr=8.74096e-06 loss=0.2172 train_acc=0.9299 test_acc=0.8825
- 96%|█████████▌| 48/50 [22:14<00:55, 27.76s/epoch]epoch=049 lr=3.89277e-06 loss=0.2110 train_acc=0.9315 test_acc=0.8827
- 98%|█████████▊| 49/50 [22:42<00:27, 27.81s/epoch]epoch=050 lr=9.7438e-07 loss=0.2121 train_acc=0.9317 test_acc=0.8839
-100%|██████████| 50/50 [23:10<00:00, 27.85s/epoch]100%|██████████| 50/50 [23:10<00:00, 27.81s/epoch]
-
-Training loss_wd_8e-4
-  0%|          | 0/50 [00:00<?, ?epoch/s]epoch=001 lr=0.00016 loss=2.2558 train_acc=0.1431 test_acc=0.2234
-  2%|▏         | 1/50 [00:27<22:38, 27.73s/epoch]epoch=002 lr=0.00032 loss=1.9211 train_acc=0.2631 test_acc=0.3444
-  4%|▍         | 2/50 [00:55<22:14, 27.81s/epoch]epoch=003 lr=0.00048 loss=1.6686 train_acc=0.3848 test_acc=0.4576
-  6%|▌         | 3/50 [01:23<21:40, 27.67s/epoch]epoch=004 lr=0.00064 loss=1.4668 train_acc=0.4757 test_acc=0.5487
-  8%|▊         | 4/50 [01:50<21:09, 27.60s/epoch]epoch=005 lr=0.0008 loss=1.2870 train_acc=0.5464 test_acc=0.5502
- 10%|█         | 5/50 [02:18<20:40, 27.57s/epoch]epoch=006 lr=0.0008 loss=1.1102 train_acc=0.6083 test_acc=0.6318
- 12%|█▏        | 6/50 [02:45<20:14, 27.60s/epoch]epoch=007 lr=0.000799026 loss=1.0430 train_acc=0.6367 test_acc=0.5987
- 14%|█▍        | 7/50 [03:13<19:46, 27.59s/epoch]epoch=008 lr=0.000796107 loss=1.0062 train_acc=0.6473 test_acc=0.6346
- 16%|█▌        | 8/50 [03:41<19:21, 27.66s/epoch]epoch=009 lr=0.000791259 loss=0.9812 train_acc=0.6616 test_acc=0.6178
- 18%|█▊        | 9/50 [04:07<18:31, 27.11s/epoch]epoch=010 lr=0.000784505 loss=0.9443 train_acc=0.6785 test_acc=0.6242
- 20%|██        | 10/50 [04:33<17:52, 26.82s/epoch]epoch=011 lr=0.000775877 loss=0.9171 train_acc=0.6899 test_acc=0.6102
- 22%|██▏       | 11/50 [04:59<17:17, 26.61s/epoch]epoch=012 lr=0.000765418 loss=0.8906 train_acc=0.7015 test_acc=0.5905
- 24%|██▍       | 12/50 [05:25<16:44, 26.44s/epoch]epoch=013 lr=0.000753179 loss=0.8549 train_acc=0.7129 test_acc=0.6193
- 26%|██▌       | 13/50 [05:50<16:02, 26.01s/epoch]epoch=014 lr=0.000739219 loss=0.8314 train_acc=0.7240 test_acc=0.7048
- 28%|██▊       | 14/50 [06:16<15:33, 25.94s/epoch]epoch=015 lr=0.000723607 loss=0.7988 train_acc=0.7343 test_acc=0.7284
- 30%|███       | 15/50 [06:41<15:01, 25.75s/epoch]epoch=016 lr=0.000706418 loss=0.7820 train_acc=0.7411 test_acc=0.7174
- 32%|███▏      | 16/50 [07:07<14:33, 25.69s/epoch]epoch=017 lr=0.000687736 loss=0.7582 train_acc=0.7490 test_acc=0.7065
- 34%|███▍      | 17/50 [07:32<14:01, 25.49s/epoch]epoch=018 lr=0.000667652 loss=0.7344 train_acc=0.7602 test_acc=0.7299
- 36%|███▌      | 18/50 [07:58<13:40, 25.63s/epoch]epoch=019 lr=0.000646265 loss=0.7076 train_acc=0.7684 test_acc=0.6423
- 38%|███▊      | 19/50 [08:23<13:11, 25.53s/epoch]epoch=020 lr=0.000623677 loss=0.6891 train_acc=0.7741 test_acc=0.6654
- 40%|████      | 20/50 [08:48<12:42, 25.40s/epoch]epoch=021 lr=0.0006 loss=0.6741 train_acc=0.7797 test_acc=0.7495
- 42%|████▏     | 21/50 [09:13<12:14, 25.33s/epoch]epoch=022 lr=0.000575348 loss=0.6513 train_acc=0.7889 test_acc=0.7480
- 44%|████▍     | 22/50 [09:38<11:44, 25.16s/epoch]epoch=023 lr=0.000549843 loss=0.6345 train_acc=0.7929 test_acc=0.7569
- 46%|████▌     | 23/50 [10:03<11:21, 25.23s/epoch]epoch=024 lr=0.000523607 loss=0.6186 train_acc=0.7985 test_acc=0.7401
- 48%|████▊     | 24/50 [10:28<10:52, 25.11s/epoch]epoch=025 lr=0.000496769 loss=0.5913 train_acc=0.8084 test_acc=0.7730
- 50%|█████     | 25/50 [10:54<10:30, 25.22s/epoch]epoch=026 lr=0.000469459 loss=0.5775 train_acc=0.8125 test_acc=0.8105
- 52%|█████▏    | 26/50 [11:18<10:01, 25.06s/epoch]epoch=027 lr=0.000441811 loss=0.5599 train_acc=0.8183 test_acc=0.7379
- 54%|█████▍    | 27/50 [11:43<09:36, 25.07s/epoch]epoch=028 lr=0.00041396 loss=0.5483 train_acc=0.8214 test_acc=0.7907
- 56%|█████▌    | 28/50 [12:08<09:11, 25.06s/epoch]epoch=029 lr=0.00038604 loss=0.5335 train_acc=0.8278 test_acc=0.7953
- 58%|█████▊    | 29/50 [12:34<08:47, 25.14s/epoch]epoch=030 lr=0.000358189 loss=0.5118 train_acc=0.8350 test_acc=0.8222
- 60%|██████    | 30/50 [12:59<08:21, 25.07s/epoch]epoch=031 lr=0.000330541 loss=0.4917 train_acc=0.8426 test_acc=0.8254
- 62%|██████▏   | 31/50 [13:24<07:57, 25.12s/epoch]epoch=032 lr=0.000303231 loss=0.4819 train_acc=0.8434 test_acc=0.8305
- 64%|██████▍   | 32/50 [13:49<07:33, 25.18s/epoch]epoch=033 lr=0.000276393 loss=0.4538 train_acc=0.8545 test_acc=0.8338
- 66%|██████▌   | 33/50 [14:15<07:08, 25.23s/epoch]epoch=034 lr=0.000250157 loss=0.4390 train_acc=0.8596 test_acc=0.8342
- 68%|██████▊   | 34/50 [14:40<06:43, 25.21s/epoch]epoch=035 lr=0.000224652 loss=0.4276 train_acc=0.8634 test_acc=0.8445
- 70%|███████   | 35/50 [15:06<06:20, 25.39s/epoch]epoch=036 lr=0.0002 loss=0.4021 train_acc=0.8721 test_acc=0.8358
- 72%|███████▏  | 36/50 [15:31<05:55, 25.40s/epoch]epoch=037 lr=0.000176323 loss=0.3851 train_acc=0.8784 test_acc=0.8528
- 74%|███████▍  | 37/50 [15:56<05:29, 25.34s/epoch]epoch=038 lr=0.000153735 loss=0.3756 train_acc=0.8824 test_acc=0.8585
- 76%|███████▌  | 38/50 [16:22<05:05, 25.43s/epoch]epoch=039 lr=0.000132348 loss=0.3561 train_acc=0.8877 test_acc=0.8578
- 78%|███████▊  | 39/50 [16:47<04:40, 25.49s/epoch]epoch=040 lr=0.000112264 loss=0.3380 train_acc=0.8946 test_acc=0.8689
- 80%|████████  | 40/50 [17:13<04:15, 25.51s/epoch]epoch=041 lr=9.35822e-05 loss=0.3275 train_acc=0.8985 test_acc=0.8716
- 82%|████████▏ | 41/50 [17:38<03:48, 25.41s/epoch]epoch=042 lr=7.63932e-05 loss=0.3088 train_acc=0.9050 test_acc=0.8755
- 84%|████████▍ | 42/50 [18:03<03:22, 25.32s/epoch]epoch=043 lr=6.07808e-05 loss=0.2975 train_acc=0.9090 test_acc=0.8766
- 86%|████████▌ | 43/50 [18:29<02:57, 25.40s/epoch]epoch=044 lr=4.6821e-05 loss=0.2867 train_acc=0.9126 test_acc=0.8792
- 88%|████████▊ | 44/50 [18:54<02:32, 25.40s/epoch]epoch=045 lr=3.45818e-05 loss=0.2728 train_acc=0.9166 test_acc=0.8791
- 90%|█████████ | 45/50 [19:20<02:07, 25.45s/epoch]epoch=046 lr=2.4123e-05 loss=0.2616 train_acc=0.9199 test_acc=0.8845
- 92%|█████████▏| 46/50 [19:45<01:41, 25.36s/epoch]epoch=047 lr=1.54953e-05 loss=0.2571 train_acc=0.9216 test_acc=0.8848
- 94%|█████████▍| 47/50 [20:11<01:16, 25.44s/epoch]epoch=048 lr=8.74096e-06 loss=0.2530 train_acc=0.9236 test_acc=0.8872
- 96%|█████████▌| 48/50 [20:36<00:50, 25.49s/epoch]epoch=049 lr=3.89277e-06 loss=0.2492 train_acc=0.9247 test_acc=0.8866
- 98%|█████████▊| 49/50 [21:02<00:25, 25.45s/epoch]epoch=050 lr=9.7438e-07 loss=0.2454 train_acc=0.9268 test_acc=0.8870
-100%|██████████| 50/50 [21:27<00:00, 25.45s/epoch]100%|██████████| 50/50 [21:27<00:00, 25.75s/epoch]
-
-Training optimizer_adam
-  0%|          | 0/50 [00:00<?, ?epoch/s]epoch=001 lr=0.00016 loss=2.2502 train_acc=0.1413 test_acc=0.2151
-  2%|▏         | 1/50 [00:25<20:57, 25.67s/epoch]epoch=002 lr=0.00032 loss=1.9144 train_acc=0.2629 test_acc=0.3524
-  4%|▍         | 2/50 [00:50<20:16, 25.34s/epoch]epoch=003 lr=0.00048 loss=1.6871 train_acc=0.3759 test_acc=0.4435
-  6%|▌         | 3/50 [01:16<19:57, 25.47s/epoch]epoch=004 lr=0.00064 loss=1.4801 train_acc=0.4676 test_acc=0.5052
-  8%|▊         | 4/50 [01:42<19:37, 25.60s/epoch]epoch=005 lr=0.0008 loss=1.3124 train_acc=0.5334 test_acc=0.5640
- 10%|█         | 5/50 [02:07<19:05, 25.46s/epoch]epoch=006 lr=0.0008 loss=1.1238 train_acc=0.6044 test_acc=0.6242
- 12%|█▏        | 6/50 [02:32<18:41, 25.49s/epoch]epoch=007 lr=0.000799026 loss=1.0534 train_acc=0.6299 test_acc=0.6420
- 14%|█▍        | 7/50 [02:58<18:17, 25.52s/epoch]epoch=008 lr=0.000796107 loss=0.9941 train_acc=0.6544 test_acc=0.6659
- 16%|█▌        | 8/50 [03:23<17:50, 25.49s/epoch]epoch=009 lr=0.000791259 loss=0.9554 train_acc=0.6719 test_acc=0.6394
- 18%|█▊        | 9/50 [03:49<17:23, 25.45s/epoch]epoch=010 lr=0.000784505 loss=0.9006 train_acc=0.6934 test_acc=0.5858
- 20%|██        | 10/50 [04:14<16:54, 25.37s/epoch]epoch=011 lr=0.000775877 loss=0.8720 train_acc=0.7070 test_acc=0.6782
- 22%|██▏       | 11/50 [04:39<16:30, 25.40s/epoch]epoch=012 lr=0.000765418 loss=0.8354 train_acc=0.7159 test_acc=0.6256
- 24%|██▍       | 12/50 [05:05<16:02, 25.34s/epoch]epoch=013 lr=0.000753179 loss=0.8005 train_acc=0.7296 test_acc=0.6607
- 26%|██▌       | 13/50 [05:30<15:38, 25.35s/epoch]epoch=014 lr=0.000739219 loss=0.7754 train_acc=0.7395 test_acc=0.7165
- 28%|██▊       | 14/50 [05:55<15:12, 25.35s/epoch]epoch=015 lr=0.000723607 loss=0.7428 train_acc=0.7487 test_acc=0.7013
- 30%|███       | 15/50 [06:20<14:43, 25.25s/epoch]epoch=016 lr=0.000706418 loss=0.7118 train_acc=0.7605 test_acc=0.7109
- 32%|███▏      | 16/50 [06:45<14:15, 25.17s/epoch]epoch=017 lr=0.000687736 loss=0.6865 train_acc=0.7698 test_acc=0.7497
- 34%|███▍      | 17/50 [07:11<13:52, 25.21s/epoch]epoch=018 lr=0.000667652 loss=0.6613 train_acc=0.7775 test_acc=0.7558
- 36%|███▌      | 18/50 [07:36<13:23, 25.11s/epoch]epoch=019 lr=0.000646265 loss=0.6339 train_acc=0.7882 test_acc=0.7797
- 38%|███▊      | 19/50 [08:01<13:02, 25.24s/epoch]epoch=020 lr=0.000623677 loss=0.6113 train_acc=0.7956 test_acc=0.7557
- 40%|████      | 20/50 [08:26<12:37, 25.25s/epoch]epoch=021 lr=0.0006 loss=0.5937 train_acc=0.8018 test_acc=0.7791
- 42%|████▏     | 21/50 [08:51<12:10, 25.19s/epoch]epoch=022 lr=0.000575348 loss=0.5772 train_acc=0.8081 test_acc=0.7713
- 44%|████▍     | 22/50 [09:17<11:46, 25.24s/epoch]epoch=023 lr=0.000549843 loss=0.5511 train_acc=0.8173 test_acc=0.6991
- 46%|████▌     | 23/50 [09:42<11:19, 25.18s/epoch]epoch=024 lr=0.000523607 loss=0.5337 train_acc=0.8224 test_acc=0.7767
- 48%|████▊     | 24/50 [10:07<10:51, 25.06s/epoch]epoch=025 lr=0.000496769 loss=0.5126 train_acc=0.8305 test_acc=0.7727
- 50%|█████     | 25/50 [10:31<10:24, 24.99s/epoch]epoch=026 lr=0.000469459 loss=0.4919 train_acc=0.8366 test_acc=0.8140
- 52%|█████▏    | 26/50 [10:57<10:00, 25.03s/epoch]epoch=027 lr=0.000441811 loss=0.4832 train_acc=0.8411 test_acc=0.8150
- 54%|█████▍    | 27/50 [11:21<09:34, 24.99s/epoch]epoch=028 lr=0.00041396 loss=0.4623 train_acc=0.8471 test_acc=0.8078
- 56%|█████▌    | 28/50 [11:46<09:09, 24.97s/epoch]epoch=029 lr=0.00038604 loss=0.4407 train_acc=0.8542 test_acc=0.8146
- 58%|█████▊    | 29/50 [12:11<08:43, 24.94s/epoch]epoch=030 lr=0.000358189 loss=0.4211 train_acc=0.8606 test_acc=0.8325
- 60%|██████    | 30/50 [12:36<08:19, 24.97s/epoch]epoch=031 lr=0.000330541 loss=0.4089 train_acc=0.8632 test_acc=0.8304
- 62%|██████▏   | 31/50 [13:01<07:53, 24.93s/epoch]epoch=032 lr=0.000303231 loss=0.3963 train_acc=0.8676 test_acc=0.8234
- 64%|██████▍   | 32/50 [13:26<07:29, 24.99s/epoch]epoch=033 lr=0.000276393 loss=0.3771 train_acc=0.8759 test_acc=0.8370
- 66%|██████▌   | 33/50 [13:51<07:03, 24.93s/epoch]epoch=034 lr=0.000250157 loss=0.3561 train_acc=0.8824 test_acc=0.8615
- 68%|██████▊   | 34/50 [14:16<06:37, 24.83s/epoch]epoch=035 lr=0.000224652 loss=0.3479 train_acc=0.8851 test_acc=0.8582
- 70%|███████   | 35/50 [14:40<06:12, 24.80s/epoch]epoch=036 lr=0.0002 loss=0.3264 train_acc=0.8929 test_acc=0.8540
- 72%|███████▏  | 36/50 [15:05<05:47, 24.81s/epoch]epoch=037 lr=0.000176323 loss=0.3168 train_acc=0.8952 test_acc=0.8490
- 74%|███████▍  | 37/50 [15:30<05:24, 24.93s/epoch]epoch=038 lr=0.000153735 loss=0.3009 train_acc=0.9009 test_acc=0.8527
- 76%|███████▌  | 38/50 [15:55<04:57, 24.82s/epoch]epoch=039 lr=0.000132348 loss=0.2895 train_acc=0.9042 test_acc=0.8610
- 78%|███████▊  | 39/50 [16:20<04:32, 24.82s/epoch]epoch=040 lr=0.000112264 loss=0.2735 train_acc=0.9087 test_acc=0.8692
- 80%|████████  | 40/50 [16:44<04:07, 24.77s/epoch]epoch=041 lr=9.35822e-05 loss=0.2639 train_acc=0.9135 test_acc=0.8730
- 82%|████████▏ | 41/50 [17:10<03:43, 24.85s/epoch]epoch=042 lr=7.63932e-05 loss=0.2478 train_acc=0.9180 test_acc=0.8750
- 84%|████████▍ | 42/50 [17:35<03:20, 25.05s/epoch]epoch=043 lr=6.07808e-05 loss=0.2427 train_acc=0.9210 test_acc=0.8771
- 86%|████████▌ | 43/50 [18:00<02:55, 25.01s/epoch]epoch=044 lr=4.6821e-05 loss=0.2340 train_acc=0.9230 test_acc=0.8797
- 88%|████████▊ | 44/50 [18:25<02:29, 24.98s/epoch]epoch=045 lr=3.45818e-05 loss=0.2241 train_acc=0.9262 test_acc=0.8811
- 90%|█████████ | 45/50 [18:50<02:04, 24.95s/epoch]epoch=046 lr=2.4123e-05 loss=0.2179 train_acc=0.9285 test_acc=0.8800
- 92%|█████████▏| 46/50 [19:15<01:39, 24.90s/epoch]epoch=047 lr=1.54953e-05 loss=0.2113 train_acc=0.9304 test_acc=0.8817
- 94%|█████████▍| 47/50 [19:39<01:14, 24.89s/epoch]epoch=048 lr=8.74096e-06 loss=0.2094 train_acc=0.9332 test_acc=0.8828
- 96%|█████████▌| 48/50 [20:05<00:50, 25.18s/epoch]epoch=049 lr=3.89277e-06 loss=0.2047 train_acc=0.9340 test_acc=0.8829
- 98%|█████████▊| 49/50 [20:31<00:25, 25.29s/epoch]epoch=050 lr=9.7438e-07 loss=0.2035 train_acc=0.9340 test_acc=0.8839
-100%|██████████| 50/50 [20:56<00:00, 25.40s/epoch]100%|██████████| 50/50 [20:56<00:00, 25.14s/epoch]
-
-Training optimizer_sgd
-  0%|          | 0/50 [00:00<?, ?epoch/s]epoch=001 lr=0.00016 loss=2.3579 train_acc=0.0955 test_acc=0.0943
-  2%|▏         | 1/50 [00:25<20:42, 25.35s/epoch]epoch=002 lr=0.00032 loss=2.3274 train_acc=0.1006 test_acc=0.0931
-  4%|▍         | 2/50 [00:50<20:11, 25.25s/epoch]epoch=003 lr=0.00048 loss=2.3155 train_acc=0.1024 test_acc=0.1110
-  6%|▌         | 3/50 [01:15<19:46, 25.24s/epoch]epoch=004 lr=0.00064 loss=2.3021 train_acc=0.1076 test_acc=0.1119
-  8%|▊         | 4/50 [01:40<19:13, 25.08s/epoch]epoch=005 lr=0.0008 loss=2.2856 train_acc=0.1188 test_acc=0.1460
- 10%|█         | 5/50 [02:05<18:49, 25.11s/epoch]epoch=006 lr=0.0008 loss=2.2478 train_acc=0.1395 test_acc=0.1536
- 12%|█▏        | 6/50 [02:31<18:29, 25.21s/epoch]epoch=007 lr=0.000799026 loss=2.2192 train_acc=0.1468 test_acc=0.1602
- 14%|█▍        | 7/50 [02:56<17:59, 25.11s/epoch]epoch=008 lr=0.000796107 loss=2.1756 train_acc=0.1655 test_acc=0.1734
- 16%|█▌        | 8/50 [03:21<17:33, 25.08s/epoch]epoch=009 lr=0.000791259 loss=2.1393 train_acc=0.1738 test_acc=0.1815
- 18%|█▊        | 9/50 [03:46<17:08, 25.09s/epoch]epoch=010 lr=0.000784505 loss=2.1148 train_acc=0.1832 test_acc=0.2265
- 20%|██        | 10/50 [04:11<16:40, 25.02s/epoch]epoch=011 lr=0.000775877 loss=2.0948 train_acc=0.1906 test_acc=0.2315
- 22%|██▏       | 11/50 [04:35<16:11, 24.92s/epoch]epoch=012 lr=0.000765418 loss=2.0769 train_acc=0.1995 test_acc=0.2331
- 24%|██▍       | 12/50 [05:00<15:46, 24.92s/epoch]epoch=013 lr=0.000753179 loss=2.0608 train_acc=0.2011 test_acc=0.2291
- 26%|██▌       | 13/50 [05:25<15:21, 24.89s/epoch]epoch=014 lr=0.000739219 loss=2.0528 train_acc=0.2039 test_acc=0.2400
- 28%|██▊       | 14/50 [05:50<14:59, 24.97s/epoch]epoch=015 lr=0.000723607 loss=2.0399 train_acc=0.2072 test_acc=0.2414
- 30%|███       | 15/50 [06:15<14:32, 24.92s/epoch]epoch=016 lr=0.000706418 loss=2.0253 train_acc=0.2109 test_acc=0.2481
- 32%|███▏      | 16/50 [06:40<14:07, 24.92s/epoch]epoch=017 lr=0.000687736 loss=2.0147 train_acc=0.2138 test_acc=0.2521
- 34%|███▍      | 17/50 [07:04<13:38, 24.82s/epoch]epoch=018 lr=0.000667652 loss=2.0020 train_acc=0.2168 test_acc=0.2548
- 36%|███▌      | 18/50 [07:30<13:19, 24.98s/epoch]epoch=019 lr=0.000646265 loss=1.9905 train_acc=0.2240 test_acc=0.2622
- 38%|███▊      | 19/50 [07:55<12:53, 24.94s/epoch]epoch=020 lr=0.000623677 loss=1.9801 train_acc=0.2252 test_acc=0.2681
- 40%|████      | 20/50 [08:19<12:26, 24.87s/epoch]epoch=021 lr=0.0006 loss=1.9680 train_acc=0.2318 test_acc=0.2723
- 42%|████▏     | 21/50 [08:44<12:02, 24.92s/epoch]epoch=022 lr=0.000575348 loss=1.9596 train_acc=0.2298 test_acc=0.2732
- 44%|████▍     | 22/50 [09:09<11:36, 24.87s/epoch]epoch=023 lr=0.000549843 loss=1.9529 train_acc=0.2322 test_acc=0.2753
- 46%|████▌     | 23/50 [09:34<11:13, 24.96s/epoch]epoch=024 lr=0.000523607 loss=1.9443 train_acc=0.2370 test_acc=0.2750
- 48%|████▊     | 24/50 [10:00<10:52, 25.08s/epoch]epoch=025 lr=0.000496769 loss=1.9339 train_acc=0.2385 test_acc=0.2794
- 50%|█████     | 25/50 [10:25<10:28, 25.12s/epoch]epoch=026 lr=0.000469459 loss=1.9297 train_acc=0.2419 test_acc=0.2875
- 52%|█████▏    | 26/50 [10:50<10:01, 25.06s/epoch]epoch=027 lr=0.000441811 loss=1.9274 train_acc=0.2395 test_acc=0.2841
- 54%|█████▍    | 27/50 [11:15<09:35, 25.03s/epoch]epoch=028 lr=0.00041396 loss=1.9252 train_acc=0.2395 test_acc=0.2921
- 56%|█████▌    | 28/50 [11:40<09:10, 25.01s/epoch]epoch=029 lr=0.00038604 loss=1.9131 train_acc=0.2461 test_acc=0.2940
- 58%|█████▊    | 29/50 [12:04<08:42, 24.89s/epoch]epoch=030 lr=0.000358189 loss=1.9119 train_acc=0.2464 test_acc=0.2964
- 60%|██████    | 30/50 [12:29<08:19, 24.98s/epoch]epoch=031 lr=0.000330541 loss=1.9114 train_acc=0.2473 test_acc=0.2985
- 62%|██████▏   | 31/50 [12:54<07:52, 24.89s/epoch]epoch=032 lr=0.000303231 loss=1.9019 train_acc=0.2479 test_acc=0.2986
- 64%|██████▍   | 32/50 [13:19<07:27, 24.87s/epoch]epoch=033 lr=0.000276393 loss=1.9000 train_acc=0.2490 test_acc=0.2973
- 66%|██████▌   | 33/50 [13:44<07:02, 24.85s/epoch]epoch=034 lr=0.000250157 loss=1.8987 train_acc=0.2508 test_acc=0.3044
- 68%|██████▊   | 34/50 [14:09<06:37, 24.82s/epoch]epoch=035 lr=0.000224652 loss=1.8925 train_acc=0.2528 test_acc=0.2985
- 70%|███████   | 35/50 [14:34<06:13, 24.90s/epoch]epoch=036 lr=0.0002 loss=1.8928 train_acc=0.2537 test_acc=0.3046
- 72%|███████▏  | 36/50 [14:59<05:49, 24.94s/epoch]epoch=037 lr=0.000176323 loss=1.8897 train_acc=0.2554 test_acc=0.3010
- 74%|███████▍  | 37/50 [15:24<05:24, 24.95s/epoch]epoch=038 lr=0.000153735 loss=1.8897 train_acc=0.2572 test_acc=0.3046
- 76%|███████▌  | 38/50 [15:49<04:59, 24.99s/epoch]epoch=039 lr=0.000132348 loss=1.8825 train_acc=0.2590 test_acc=0.3066
- 78%|███████▊  | 39/50 [16:14<04:35, 25.07s/epoch]epoch=040 lr=0.000112264 loss=1.8841 train_acc=0.2596 test_acc=0.3040
- 80%|████████  | 40/50 [16:39<04:10, 25.08s/epoch]epoch=041 lr=9.35822e-05 loss=1.8831 train_acc=0.2597 test_acc=0.3063
- 82%|████████▏ | 41/50 [17:04<03:45, 25.03s/epoch]epoch=042 lr=7.63932e-05 loss=1.8843 train_acc=0.2584 test_acc=0.3064
- 84%|████████▍ | 42/50 [17:29<03:20, 25.08s/epoch]epoch=043 lr=6.07808e-05 loss=1.8823 train_acc=0.2591 test_acc=0.3057
- 86%|████████▌ | 43/50 [17:54<02:55, 25.05s/epoch]epoch=044 lr=4.6821e-05 loss=1.8816 train_acc=0.2592 test_acc=0.3065
- 88%|████████▊ | 44/50 [18:20<02:30, 25.16s/epoch]epoch=045 lr=3.45818e-05 loss=1.8849 train_acc=0.2562 test_acc=0.3076
- 90%|█████████ | 45/50 [18:45<02:06, 25.22s/epoch]epoch=046 lr=2.4123e-05 loss=1.8829 train_acc=0.2594 test_acc=0.3051
- 92%|█████████▏| 46/50 [19:10<01:40, 25.12s/epoch]epoch=047 lr=1.54953e-05 loss=1.8813 train_acc=0.2601 test_acc=0.3085
- 94%|█████████▍| 47/50 [19:35<01:15, 25.12s/epoch]epoch=048 lr=8.74096e-06 loss=1.8820 train_acc=0.2606 test_acc=0.3061
- 96%|█████████▌| 48/50 [20:00<00:50, 25.12s/epoch]epoch=049 lr=3.89277e-06 loss=1.8794 train_acc=0.2591 test_acc=0.3070
- 98%|█████████▊| 49/50 [20:25<00:25, 25.16s/epoch]epoch=050 lr=9.7438e-07 loss=1.8807 train_acc=0.2588 test_acc=0.3065
-100%|██████████| 50/50 [20:51<00:00, 25.23s/epoch]100%|██████████| 50/50 [20:51<00:00, 25.03s/epoch]
-
-Training vgg_a_lr_0.001
-  0%|          | 0/20 [00:00<?, ?epoch/s]epoch=001 loss=1.9230 train_acc=0.3194 test_acc=0.4862
-  5%|▌         | 1/20 [00:19<06:15, 19.78s/epoch]epoch=002 loss=1.3250 train_acc=0.5227 test_acc=0.5995
- 10%|█         | 2/20 [00:39<05:55, 19.75s/epoch]epoch=003 loss=1.1092 train_acc=0.6093 test_acc=0.6284
- 15%|█▌        | 3/20 [00:59<05:36, 19.81s/epoch]epoch=004 loss=0.9667 train_acc=0.6626 test_acc=0.7024
- 20%|██        | 4/20 [01:18<05:15, 19.72s/epoch]epoch=005 loss=0.8765 train_acc=0.6932 test_acc=0.7208
- 25%|██▌       | 5/20 [01:38<04:57, 19.82s/epoch]epoch=006 loss=0.8078 train_acc=0.7213 test_acc=0.7302
- 30%|███       | 6/20 [01:58<04:37, 19.81s/epoch]epoch=007 loss=0.7563 train_acc=0.7395 test_acc=0.7480
- 35%|███▌      | 7/20 [02:18<04:18, 19.88s/epoch]epoch=008 loss=0.7092 train_acc=0.7534 test_acc=0.7676
- 40%|████      | 8/20 [02:38<03:57, 19.79s/epoch]epoch=009 loss=0.6801 train_acc=0.7654 test_acc=0.7654
- 45%|████▌     | 9/20 [02:57<03:36, 19.71s/epoch]epoch=010 loss=0.6436 train_acc=0.7795 test_acc=0.7763
- 50%|█████     | 10/20 [03:17<03:17, 19.72s/epoch]epoch=011 loss=0.6128 train_acc=0.7896 test_acc=0.7908
- 55%|█████▌    | 11/20 [03:37<02:57, 19.68s/epoch]epoch=012 loss=0.5939 train_acc=0.7958 test_acc=0.7960
- 60%|██████    | 12/20 [03:56<02:37, 19.66s/epoch]epoch=013 loss=0.5710 train_acc=0.8066 test_acc=0.8026
- 65%|██████▌   | 13/20 [04:16<02:17, 19.66s/epoch]epoch=014 loss=0.5565 train_acc=0.8103 test_acc=0.8123
- 70%|███████   | 14/20 [04:36<01:58, 19.81s/epoch]epoch=015 loss=0.5322 train_acc=0.8182 test_acc=0.8008
- 75%|███████▌  | 15/20 [04:56<01:38, 19.72s/epoch]epoch=016 loss=0.5141 train_acc=0.8256 test_acc=0.8161
- 80%|████████  | 16/20 [05:15<01:18, 19.74s/epoch]epoch=017 loss=0.5080 train_acc=0.8275 test_acc=0.8139
- 85%|████████▌ | 17/20 [05:35<00:59, 19.67s/epoch]epoch=018 loss=0.4951 train_acc=0.8308 test_acc=0.8052
- 90%|█████████ | 18/20 [05:55<00:39, 19.62s/epoch]epoch=019 loss=0.4783 train_acc=0.8382 test_acc=0.8049
- 95%|█████████▌| 19/20 [06:14<00:19, 19.67s/epoch]epoch=020 loss=0.4672 train_acc=0.8404 test_acc=0.8166
-100%|██████████| 20/20 [06:34<00:00, 19.68s/epoch]100%|██████████| 20/20 [06:34<00:00, 19.72s/epoch]
-
-Training vgg_a_lr_0.002
-  0%|          | 0/20 [00:00<?, ?epoch/s]epoch=001 loss=2.5067 train_acc=0.2147 test_acc=0.3401
-  5%|▌         | 1/20 [00:20<06:22, 20.14s/epoch]epoch=002 loss=1.5857 train_acc=0.4100 test_acc=0.4900
- 10%|█         | 2/20 [00:40<06:00, 20.03s/epoch]epoch=003 loss=1.3742 train_acc=0.5027 test_acc=0.5583
- 15%|█▌        | 3/20 [01:00<05:39, 20.00s/epoch]epoch=004 loss=1.2243 train_acc=0.5618 test_acc=0.6167
- 20%|██        | 4/20 [01:19<05:18, 19.88s/epoch]epoch=005 loss=1.1311 train_acc=0.6006 test_acc=0.6648
- 25%|██▌       | 5/20 [01:39<04:56, 19.79s/epoch]epoch=006 loss=1.0345 train_acc=0.6387 test_acc=0.6702
- 30%|███       | 6/20 [01:59<04:37, 19.84s/epoch]epoch=007 loss=0.9779 train_acc=0.6622 test_acc=0.6953
- 35%|███▌      | 7/20 [02:18<04:17, 19.78s/epoch]epoch=008 loss=0.9229 train_acc=0.6808 test_acc=0.7011
- 40%|████      | 8/20 [02:38<03:57, 19.81s/epoch]epoch=009 loss=0.8836 train_acc=0.6940 test_acc=0.7233
- 45%|████▌     | 9/20 [02:58<03:38, 19.90s/epoch]epoch=010 loss=0.8515 train_acc=0.7062 test_acc=0.7232
- 50%|█████     | 10/20 [03:18<03:17, 19.80s/epoch]epoch=011 loss=0.8260 train_acc=0.7178 test_acc=0.7352
- 55%|█████▌    | 11/20 [03:38<02:59, 19.91s/epoch]epoch=012 loss=0.8052 train_acc=0.7242 test_acc=0.7498
- 60%|██████    | 12/20 [03:58<02:38, 19.86s/epoch]epoch=013 loss=0.7811 train_acc=0.7324 test_acc=0.7447
- 65%|██████▌   | 13/20 [04:18<02:19, 19.86s/epoch]epoch=014 loss=0.7466 train_acc=0.7451 test_acc=0.7476
- 70%|███████   | 14/20 [04:38<02:00, 20.11s/epoch]epoch=015 loss=0.7432 train_acc=0.7494 test_acc=0.7592
- 75%|███████▌  | 15/20 [04:59<01:40, 20.11s/epoch]epoch=016 loss=0.7178 train_acc=0.7577 test_acc=0.7550
- 80%|████████  | 16/20 [05:18<01:19, 19.91s/epoch]epoch=017 loss=0.7089 train_acc=0.7608 test_acc=0.7641
- 85%|████████▌ | 17/20 [05:38<00:59, 19.97s/epoch]epoch=018 loss=0.6963 train_acc=0.7653 test_acc=0.7726
- 90%|█████████ | 18/20 [05:58<00:39, 19.87s/epoch]epoch=019 loss=0.6768 train_acc=0.7715 test_acc=0.7653
- 95%|█████████▌| 19/20 [06:17<00:19, 19.79s/epoch]epoch=020 loss=0.6600 train_acc=0.7755 test_acc=0.7820
-100%|██████████| 20/20 [06:37<00:00, 19.76s/epoch]100%|██████████| 20/20 [06:37<00:00, 19.88s/epoch]
-
-Training vgg_a_lr_0.0001
-  0%|          | 0/20 [00:00<?, ?epoch/s]epoch=001 loss=1.7402 train_acc=0.3803 test_acc=0.5013
-  5%|▌         | 1/20 [00:19<06:16, 19.82s/epoch]epoch=002 loss=1.4104 train_acc=0.4941 test_acc=0.5646
- 10%|█         | 2/20 [00:39<05:58, 19.93s/epoch]epoch=003 loss=1.2620 train_acc=0.5537 test_acc=0.6156
- 15%|█▌        | 3/20 [00:59<05:37, 19.84s/epoch]epoch=004 loss=1.1596 train_acc=0.5937 test_acc=0.6455
- 20%|██        | 4/20 [01:19<05:18, 19.88s/epoch]epoch=005 loss=1.0778 train_acc=0.6216 test_acc=0.6688
- 25%|██▌       | 5/20 [01:39<04:58, 19.88s/epoch]epoch=006 loss=1.0007 train_acc=0.6490 test_acc=0.6735
- 30%|███       | 6/20 [01:59<04:38, 19.88s/epoch]epoch=007 loss=0.9479 train_acc=0.6688 test_acc=0.6968
- 35%|███▌      | 7/20 [02:19<04:19, 19.99s/epoch]epoch=008 loss=0.8979 train_acc=0.6868 test_acc=0.7194
- 40%|████      | 8/20 [02:39<03:59, 19.97s/epoch]epoch=009 loss=0.8579 train_acc=0.7009 test_acc=0.7194
- 45%|████▌     | 9/20 [02:59<03:39, 19.92s/epoch]epoch=010 loss=0.8193 train_acc=0.7150 test_acc=0.7262
- 50%|█████     | 10/20 [03:19<03:19, 19.91s/epoch]epoch=011 loss=0.7791 train_acc=0.7287 test_acc=0.7425
- 55%|█████▌    | 11/20 [03:39<03:00, 20.01s/epoch]epoch=012 loss=0.7444 train_acc=0.7422 test_acc=0.7432
- 60%|██████    | 12/20 [03:59<02:39, 19.92s/epoch]epoch=013 loss=0.7191 train_acc=0.7502 test_acc=0.7636
- 65%|██████▌   | 13/20 [04:18<02:18, 19.83s/epoch]epoch=014 loss=0.6990 train_acc=0.7555 test_acc=0.7638
- 70%|███████   | 14/20 [04:38<01:58, 19.80s/epoch]epoch=015 loss=0.6660 train_acc=0.7671 test_acc=0.7726
- 75%|███████▌  | 15/20 [04:58<01:39, 19.85s/epoch]epoch=016 loss=0.6361 train_acc=0.7771 test_acc=0.7668
- 80%|████████  | 16/20 [05:17<01:19, 19.78s/epoch]epoch=017 loss=0.6231 train_acc=0.7831 test_acc=0.7758
- 85%|████████▌ | 17/20 [05:37<00:59, 19.75s/epoch]epoch=018 loss=0.5928 train_acc=0.7935 test_acc=0.7795
- 90%|█████████ | 18/20 [05:57<00:39, 19.80s/epoch]epoch=019 loss=0.5733 train_acc=0.7995 test_acc=0.7663
- 95%|█████████▌| 19/20 [06:17<00:19, 19.80s/epoch]epoch=020 loss=0.5534 train_acc=0.8060 test_acc=0.7786
-100%|██████████| 20/20 [06:37<00:00, 19.77s/epoch]100%|██████████| 20/20 [06:37<00:00, 19.85s/epoch]
-
-Training vgg_a_lr_0.0005
-  0%|          | 0/20 [00:00<?, ?epoch/s]epoch=001 loss=1.8594 train_acc=0.3401 test_acc=0.4815
-  5%|▌         | 1/20 [00:19<06:18, 19.93s/epoch]epoch=002 loss=1.3123 train_acc=0.5309 test_acc=0.5896
- 10%|█         | 2/20 [00:39<05:56, 19.82s/epoch]epoch=003 loss=1.0879 train_acc=0.6148 test_acc=0.6625
- 15%|█▌        | 3/20 [00:59<05:37, 19.84s/epoch]epoch=004 loss=0.9394 train_acc=0.6706 test_acc=0.7140
- 20%|██        | 4/20 [01:19<05:15, 19.73s/epoch]epoch=005 loss=0.8414 train_acc=0.7054 test_acc=0.7490
- 25%|██▌       | 5/20 [01:38<04:56, 19.77s/epoch]epoch=006 loss=0.7598 train_acc=0.7338 test_acc=0.7518
- 30%|███       | 6/20 [01:59<04:38, 19.90s/epoch]epoch=007 loss=0.7040 train_acc=0.7560 test_acc=0.7637
- 35%|███▌      | 7/20 [02:18<04:18, 19.87s/epoch]epoch=008 loss=0.6603 train_acc=0.7704 test_acc=0.7881
- 40%|████      | 8/20 [02:38<03:57, 19.79s/epoch]epoch=009 loss=0.6143 train_acc=0.7864 test_acc=0.7848
- 45%|████▌     | 9/20 [02:58<03:37, 19.74s/epoch]epoch=010 loss=0.5844 train_acc=0.7980 test_acc=0.7916
- 50%|█████     | 10/20 [03:18<03:17, 19.79s/epoch]epoch=011 loss=0.5496 train_acc=0.8102 test_acc=0.7893
- 55%|█████▌    | 11/20 [03:38<02:58, 19.85s/epoch]epoch=012 loss=0.5271 train_acc=0.8181 test_acc=0.8009
- 60%|██████    | 12/20 [03:58<02:39, 19.94s/epoch]epoch=013 loss=0.5019 train_acc=0.8260 test_acc=0.8111
- 65%|██████▌   | 13/20 [04:18<02:20, 20.06s/epoch]epoch=014 loss=0.4834 train_acc=0.8325 test_acc=0.8066
- 70%|███████   | 14/20 [04:38<02:00, 20.12s/epoch]epoch=015 loss=0.4617 train_acc=0.8391 test_acc=0.8173
- 75%|███████▌  | 15/20 [04:58<01:40, 20.07s/epoch]epoch=016 loss=0.4351 train_acc=0.8515 test_acc=0.8163
- 80%|████████  | 16/20 [05:18<01:19, 20.00s/epoch]epoch=017 loss=0.4204 train_acc=0.8562 test_acc=0.8242
- 85%|████████▌ | 17/20 [05:38<00:59, 19.98s/epoch]epoch=018 loss=0.4074 train_acc=0.8594 test_acc=0.8309
- 90%|█████████ | 18/20 [05:58<00:40, 20.01s/epoch]epoch=019 loss=0.3858 train_acc=0.8653 test_acc=0.8182
- 95%|█████████▌| 19/20 [06:18<00:19, 19.98s/epoch]epoch=020 loss=0.3725 train_acc=0.8713 test_acc=0.8331
-100%|██████████| 20/20 [06:38<00:00, 20.01s/epoch]100%|██████████| 20/20 [06:38<00:00, 19.93s/epoch]
-
-Training vgg_a_bn_lr_0.001
-  0%|          | 0/20 [00:00<?, ?epoch/s]epoch=001 loss=1.5587 train_acc=0.4305 test_acc=0.5839
-  5%|▌         | 1/20 [00:20<06:34, 20.74s/epoch]epoch=002 loss=1.0137 train_acc=0.6399 test_acc=0.6968
- 10%|█         | 2/20 [00:41<06:15, 20.84s/epoch]epoch=003 loss=0.8154 train_acc=0.7153 test_acc=0.6954
- 15%|█▌        | 3/20 [01:02<05:53, 20.82s/epoch]epoch=004 loss=0.7027 train_acc=0.7565 test_acc=0.7584
- 20%|██        | 4/20 [01:23<05:33, 20.84s/epoch]epoch=005 loss=0.6313 train_acc=0.7825 test_acc=0.7719
- 25%|██▌       | 5/20 [01:44<05:15, 21.03s/epoch]epoch=006 loss=0.5730 train_acc=0.8025 test_acc=0.7619
- 30%|███       | 6/20 [02:04<04:50, 20.76s/epoch]epoch=007 loss=0.5261 train_acc=0.8193 test_acc=0.7906
- 35%|███▌      | 7/20 [02:25<04:29, 20.72s/epoch]epoch=008 loss=0.4885 train_acc=0.8307 test_acc=0.8189
- 40%|████      | 8/20 [02:46<04:07, 20.66s/epoch]epoch=009 loss=0.4519 train_acc=0.8431 test_acc=0.8245
- 45%|████▌     | 9/20 [03:06<03:47, 20.64s/epoch]epoch=010 loss=0.4278 train_acc=0.8535 test_acc=0.8403
- 50%|█████     | 10/20 [03:27<03:26, 20.63s/epoch]epoch=011 loss=0.4001 train_acc=0.8644 test_acc=0.8406
- 55%|█████▌    | 11/20 [03:48<03:06, 20.67s/epoch]epoch=012 loss=0.3737 train_acc=0.8710 test_acc=0.8562
- 60%|██████    | 12/20 [04:08<02:45, 20.68s/epoch]epoch=013 loss=0.3558 train_acc=0.8767 test_acc=0.8625
- 65%|██████▌   | 13/20 [04:29<02:24, 20.63s/epoch]epoch=014 loss=0.3329 train_acc=0.8866 test_acc=0.8434
- 70%|███████   | 14/20 [04:49<02:02, 20.44s/epoch]epoch=015 loss=0.3173 train_acc=0.8917 test_acc=0.8635
- 75%|███████▌  | 15/20 [05:09<01:41, 20.36s/epoch]epoch=016 loss=0.3003 train_acc=0.8971 test_acc=0.8544
- 80%|████████  | 16/20 [05:29<01:21, 20.29s/epoch]epoch=017 loss=0.2835 train_acc=0.9017 test_acc=0.8644
- 85%|████████▌ | 17/20 [05:49<01:00, 20.27s/epoch]epoch=018 loss=0.2730 train_acc=0.9069 test_acc=0.8676
- 90%|█████████ | 18/20 [06:10<00:40, 20.32s/epoch]epoch=019 loss=0.2521 train_acc=0.9130 test_acc=0.8480
- 95%|█████████▌| 19/20 [06:30<00:20, 20.22s/epoch]epoch=020 loss=0.2466 train_acc=0.9156 test_acc=0.8688
-100%|██████████| 20/20 [06:50<00:00, 20.28s/epoch]100%|██████████| 20/20 [06:50<00:00, 20.53s/epoch]
-
-Training vgg_a_bn_lr_0.002
-  0%|          | 0/20 [00:00<?, ?epoch/s]epoch=001 loss=2.2198 train_acc=0.1710 test_acc=0.3354
-  5%|▌         | 1/20 [00:20<06:22, 20.13s/epoch]epoch=002 loss=1.5116 train_acc=0.4230 test_acc=0.5544
- 10%|█         | 2/20 [00:40<06:03, 20.22s/epoch]epoch=003 loss=1.1163 train_acc=0.5988 test_acc=0.5865
- 15%|█▌        | 3/20 [01:00<05:43, 20.20s/epoch]epoch=004 loss=0.9009 train_acc=0.6841 test_acc=0.7223
- 20%|██        | 4/20 [01:21<05:25, 20.32s/epoch]epoch=005 loss=0.7631 train_acc=0.7355 test_acc=0.7412
- 25%|██▌       | 5/20 [01:41<05:04, 20.29s/epoch]epoch=006 loss=0.6703 train_acc=0.7678 test_acc=0.7501
- 30%|███       | 6/20 [02:01<04:45, 20.38s/epoch]epoch=007 loss=0.6008 train_acc=0.7947 test_acc=0.7292
- 35%|███▌      | 7/20 [02:22<04:24, 20.33s/epoch]epoch=008 loss=0.5537 train_acc=0.8112 test_acc=0.8015
- 40%|████      | 8/20 [02:42<04:03, 20.27s/epoch]epoch=009 loss=0.5041 train_acc=0.8278 test_acc=0.7971
- 45%|████▌     | 9/20 [03:02<03:42, 20.19s/epoch]epoch=010 loss=0.4653 train_acc=0.8419 test_acc=0.8194
- 50%|█████     | 10/20 [03:22<03:23, 20.31s/epoch]epoch=011 loss=0.4335 train_acc=0.8521 test_acc=0.8366
- 55%|█████▌    | 11/20 [03:42<03:02, 20.25s/epoch]epoch=012 loss=0.4069 train_acc=0.8608 test_acc=0.8470
- 60%|██████    | 12/20 [04:03<02:41, 20.23s/epoch]epoch=013 loss=0.3778 train_acc=0.8711 test_acc=0.8407
- 65%|██████▌   | 13/20 [04:23<02:21, 20.15s/epoch]epoch=014 loss=0.3580 train_acc=0.8779 test_acc=0.8437
- 70%|███████   | 14/20 [04:43<02:01, 20.17s/epoch]epoch=015 loss=0.3344 train_acc=0.8855 test_acc=0.8550
- 75%|███████▌  | 15/20 [05:04<01:41, 20.36s/epoch]epoch=016 loss=0.3152 train_acc=0.8920 test_acc=0.8637
- 80%|████████  | 16/20 [05:24<01:21, 20.38s/epoch]epoch=017 loss=0.2969 train_acc=0.8975 test_acc=0.8554
- 85%|████████▌ | 17/20 [05:44<01:01, 20.33s/epoch]epoch=018 loss=0.2862 train_acc=0.9022 test_acc=0.8539
- 90%|█████████ | 18/20 [06:05<00:40, 20.30s/epoch]epoch=019 loss=0.2688 train_acc=0.9104 test_acc=0.8558
- 95%|█████████▌| 19/20 [06:25<00:20, 20.31s/epoch]epoch=020 loss=0.2563 train_acc=0.9120 test_acc=0.8727
-100%|██████████| 20/20 [06:45<00:00, 20.30s/epoch]100%|██████████| 20/20 [06:45<00:00, 20.28s/epoch]
-
-Training vgg_a_bn_lr_0.0001
-  0%|          | 0/20 [00:00<?, ?epoch/s]epoch=001 loss=1.5090 train_acc=0.4564 test_acc=0.5734
-  5%|▌         | 1/20 [00:20<06:36, 20.89s/epoch]epoch=002 loss=1.1879 train_acc=0.5742 test_acc=0.6446
- 10%|█         | 2/20 [00:41<06:10, 20.60s/epoch]epoch=003 loss=1.0504 train_acc=0.6256 test_acc=0.6332
- 15%|█▌        | 3/20 [01:01<05:47, 20.43s/epoch]epoch=004 loss=0.9546 train_acc=0.6619 test_acc=0.6925
- 20%|██        | 4/20 [01:22<05:28, 20.53s/epoch]epoch=005 loss=0.8886 train_acc=0.6856 test_acc=0.7092
- 25%|██▌       | 5/20 [01:42<05:06, 20.41s/epoch]epoch=006 loss=0.8251 train_acc=0.7089 test_acc=0.7229
- 30%|███       | 6/20 [02:02<04:44, 20.36s/epoch]epoch=007 loss=0.7759 train_acc=0.7259 test_acc=0.7245
- 35%|███▌      | 7/20 [02:23<04:25, 20.43s/epoch]epoch=008 loss=0.7349 train_acc=0.7399 test_acc=0.7341
- 40%|████      | 8/20 [02:43<04:04, 20.39s/epoch]epoch=009 loss=0.7069 train_acc=0.7508 test_acc=0.7529
- 45%|████▌     | 9/20 [03:04<03:46, 20.60s/epoch]epoch=010 loss=0.6690 train_acc=0.7641 test_acc=0.7479
- 50%|█████     | 10/20 [03:25<03:25, 20.54s/epoch]epoch=011 loss=0.6409 train_acc=0.7748 test_acc=0.7633
- 55%|█████▌    | 11/20 [03:45<03:03, 20.39s/epoch]epoch=012 loss=0.6151 train_acc=0.7842 test_acc=0.7724
- 60%|██████    | 12/20 [04:05<02:42, 20.33s/epoch]epoch=013 loss=0.5849 train_acc=0.7950 test_acc=0.7891
- 65%|██████▌   | 13/20 [04:25<02:23, 20.43s/epoch]epoch=014 loss=0.5694 train_acc=0.7995 test_acc=0.7763
- 70%|███████   | 14/20 [04:46<02:03, 20.57s/epoch]epoch=015 loss=0.5437 train_acc=0.8069 test_acc=0.7957
- 75%|███████▌  | 15/20 [05:06<01:41, 20.40s/epoch]epoch=016 loss=0.5278 train_acc=0.8148 test_acc=0.7955
- 80%|████████  | 16/20 [05:27<01:21, 20.36s/epoch]epoch=017 loss=0.5114 train_acc=0.8205 test_acc=0.8068
- 85%|████████▌ | 17/20 [05:47<01:00, 20.29s/epoch]epoch=018 loss=0.4842 train_acc=0.8283 test_acc=0.8026
- 90%|█████████ | 18/20 [06:08<00:40, 20.49s/epoch]epoch=019 loss=0.4684 train_acc=0.8357 test_acc=0.7954
- 95%|█████████▌| 19/20 [06:28<00:20, 20.53s/epoch]epoch=020 loss=0.4592 train_acc=0.8369 test_acc=0.8107
-100%|██████████| 20/20 [06:49<00:00, 20.46s/epoch]100%|██████████| 20/20 [06:49<00:00, 20.45s/epoch]
-
-Training vgg_a_bn_lr_0.0005
-  0%|          | 0/20 [00:00<?, ?epoch/s]epoch=001 loss=1.4165 train_acc=0.4904 test_acc=0.6271
-  5%|▌         | 1/20 [00:20<06:26, 20.36s/epoch]epoch=002 loss=0.9869 train_acc=0.6482 test_acc=0.7043
- 10%|█         | 2/20 [00:40<06:06, 20.34s/epoch]epoch=003 loss=0.8193 train_acc=0.7131 test_acc=0.7038
- 15%|█▌        | 3/20 [01:01<05:45, 20.34s/epoch]epoch=004 loss=0.7144 train_acc=0.7497 test_acc=0.7639
- 20%|██        | 4/20 [01:21<05:24, 20.27s/epoch]epoch=005 loss=0.6470 train_acc=0.7746 test_acc=0.7792
- 25%|██▌       | 5/20 [01:41<05:05, 20.33s/epoch]epoch=006 loss=0.5939 train_acc=0.7923 test_acc=0.7704
- 30%|███       | 6/20 [02:02<04:46, 20.45s/epoch]epoch=007 loss=0.5496 train_acc=0.8095 test_acc=0.7357
- 35%|███▌      | 7/20 [02:22<04:25, 20.39s/epoch]epoch=008 loss=0.5122 train_acc=0.8218 test_acc=0.7924
- 40%|████      | 8/20 [02:42<04:04, 20.36s/epoch]epoch=009 loss=0.4821 train_acc=0.8334 test_acc=0.8231
- 45%|████▌     | 9/20 [03:03<03:43, 20.31s/epoch]epoch=010 loss=0.4507 train_acc=0.8438 test_acc=0.7971
- 50%|█████     | 10/20 [03:23<03:23, 20.35s/epoch]epoch=011 loss=0.4306 train_acc=0.8506 test_acc=0.8388
- 55%|█████▌    | 11/20 [03:43<03:02, 20.28s/epoch]epoch=012 loss=0.4063 train_acc=0.8606 test_acc=0.8525
- 60%|██████    | 12/20 [04:03<02:40, 20.01s/epoch]epoch=013 loss=0.3813 train_acc=0.8683 test_acc=0.8363
- 65%|██████▌   | 13/20 [04:22<02:18, 19.77s/epoch]epoch=014 loss=0.3670 train_acc=0.8733 test_acc=0.8403
- 70%|███████   | 14/20 [04:41<01:57, 19.53s/epoch]epoch=015 loss=0.3463 train_acc=0.8808 test_acc=0.8539
- 75%|███████▌  | 15/20 [05:00<01:37, 19.46s/epoch]epoch=016 loss=0.3359 train_acc=0.8829 test_acc=0.8507
- 80%|████████  | 16/20 [05:19<01:17, 19.28s/epoch]epoch=017 loss=0.3124 train_acc=0.8906 test_acc=0.8444
- 85%|████████▌ | 17/20 [05:38<00:57, 19.18s/epoch]epoch=018 loss=0.3005 train_acc=0.8946 test_acc=0.8558
- 90%|█████████ | 18/20 [05:57<00:38, 19.14s/epoch]epoch=019 loss=0.2828 train_acc=0.9026 test_acc=0.8285
- 95%|█████████▌| 19/20 [06:16<00:19, 19.14s/epoch]epoch=020 loss=0.2772 train_acc=0.9031 test_acc=0.8570
-100%|██████████| 20/20 [06:35<00:00, 19.16s/epoch]100%|██████████| 20/20 [06:35<00:00, 19.79s/epoch]
-Saved outputs to /inspire/hdd/project/fdu-aidake-cfff/public/lx/nn/PJ2_2026/pj2_reworked_outputs
-[HAMI-core Msg(6300:140080326019968:multiprocess_memory_limit.c:459)]: Calling exit handler 6300

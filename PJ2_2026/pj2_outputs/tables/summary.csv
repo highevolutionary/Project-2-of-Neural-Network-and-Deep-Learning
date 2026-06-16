@@ -1,9 +1,0 @@
-model,learning_rate,parameters,best_val_accuracy,best_val_accuracy_epoch,final_val_accuracy,model_path
-vgg_a,0.001,9750922,0.767,19,0.7483,pj2_outputs/models/vgg_a_lr_0.001.pt
-vgg_a,0.002,9750922,0.1,1,0.1,pj2_outputs/models/vgg_a_lr_0.002.pt
-vgg_a,0.0001,9750922,0.7683,15,0.7646,pj2_outputs/models/vgg_a_lr_0.0001.pt
-vgg_a,0.0005,9750922,0.7936,18,0.7873,pj2_outputs/models/vgg_a_lr_0.0005.pt
-vgg_a_bn,0.001,9756426,0.8217,16,0.8057,pj2_outputs/models/vgg_a_bn_lr_0.001.pt
-vgg_a_bn,0.002,9756426,0.8119,19,0.802,pj2_outputs/models/vgg_a_bn_lr_0.002.pt
-vgg_a_bn,0.0001,9756426,0.7503,19,0.7403,pj2_outputs/models/vgg_a_bn_lr_0.0001.pt
-vgg_a_bn,0.0005,9756426,0.8176,18,0.7965,pj2_outputs/models/vgg_a_bn_lr_0.0005.pt
